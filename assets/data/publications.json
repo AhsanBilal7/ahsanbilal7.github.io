@@ -3,9 +3,8 @@
       "selected": false,
       "topic": "rl_syn",
       "media": {
-        "type": "",
-        "src": "",
-        "format": ""
+        "type": "image",
+        "src": "assets/images/research/dsaa_runner_up_award.jpeg"
       },
       "details": {
         "title": "Abstract – LLM for Explainable AI",
@@ -24,9 +23,8 @@
       "selected": true,
       "topic": "",
       "media": {
-        "type": "",
-        "src": "",
-        "format": ""
+        "type": "image",
+        "src": "assets/images/research/task_aware.png"
       },
       "details": {
         "title": "Task Aware Distributed Source Coding for Correlated Audio Signals Using Perceptual Loss",
@@ -45,9 +43,8 @@
       "selected": true,
       "topic": "",
       "media": {
-        "type": "",
-        "src": "",
-        "format": ""
+        "type": "image",
+        "src": "assets/images/research/rag_wireless.png"
       },
       "details": {
         "title": "Retrieval Augmented Generation with Multi-Modal LLM Framework for Wireless Environments",
@@ -74,9 +71,8 @@
       "selected": true,
       "topic": "",
       "media": {
-        "type": "",
-        "src": "",
-        "format": ""
+        "type": "image",
+        "src": "assets/images/research/hierarchical.png"
       },
       "details": {
         "title": "Hierarchical Deep Reinforcement Learning for Spectrum Resource Optimization in Integrated Terrestrial and Non-Terrestrial Networks",
@@ -97,9 +93,8 @@
       "selected": false,
       "topic": "",
       "media": {
-        "type": "",
-        "src": "",
-        "format": ""
+        "type": "image",
+        "src": "assets/images/research/meta_rl.png"
       },
       "details": {
         "title": "Meta-Thinking in LLMs via Multi-Agent Reinforcement Learning: A Survey",
