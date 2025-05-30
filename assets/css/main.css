@@ -1968,6 +1968,17 @@ ul.actions li:first-child {
     background-color: #fafafa;
     text-shadow: 1px 1px 0px #fff;
 }
+.wrapper.review_style1 {
+    padding: 2px;
+    background-color: #fafafa;
+    text-shadow: 1px 1px 0px #fff;
+    font-size: 1em;
+}
+#review-list{
+    background-color: #fafafa;
+    text-shadow: 1px 1px 0px #fff;
+    font-size: 1.5em;
+}
 
 .wrapper.style4 {
     background-color: #303030;
