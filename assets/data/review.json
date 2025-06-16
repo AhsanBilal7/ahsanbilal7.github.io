@@ -1,14 +1,10 @@
 [
   {
-    "date": "Workshop ",
-    "html": "PAKDD : Workshop of Foundational AI for Pervasive Computing"
+    "date": "Conferences ",
+    "html": ["PAKDD"]
   },
   {
     "date": "Journal ",
-    "html": "IEEE : Wireless Communications Magazine"
-  },
-  {
-    "date": "Journal ",
-    "html": "Springer Nature : Multimedia Tools and Applications"
+    "html": ["IEEE: Wireless Communications Magazine" , " Springer Nature: Multimedia Tools and Applications"]
   }
 ]
