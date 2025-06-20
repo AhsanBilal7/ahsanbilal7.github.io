@@ -38,7 +38,7 @@ function showAllPublications() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize with only selected publications displayed
-    showSelectedPublications();
+    showAllPublications();
 });
 
 function clickAnyResearchTopic() {
