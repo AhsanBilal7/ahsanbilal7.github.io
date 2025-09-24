@@ -1,7 +1,11 @@
 [
   {
+  "date": " Sep 2025",
+  "html": "1 Paper accepted at <a href=\"https://neurips.cc/Conferences/2025\" target=\"_blank\">@Neurips 2025</a> — <a href=\"https://neurips.cc/virtual/2025/poster/119780\" target=\"_blank\">ItDPDM: Information-Theoretic Discrete Poisson Diffusion Model</a>."
+},
+  {
     "date": "June 2025",
-    "html": "1 papers for Continual Learning for Wireless Channel Prediction accepted @ <a href=\"https://icml.cc/\" target=\"_blank\">@ICML 2025 Workshop</a> taking place in Vancouver."
+    "html": "1 papers for Continual Learning for Wireless Channel Prediction accepted <a href=\"https://icml.cc/\" target=\"_blank\">@ICML 2025 Workshop</a> taking place in Vancouver."
   },
   {
     "date": "June 2025",
