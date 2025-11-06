@@ -1,10 +1,10 @@
 [
   {
     "date": "Conferences ",
-    "html": ["PAKDD"]
+    "html": ["ICASSP, PAKDD"]
   },
   {
     "date": "Journal ",
-    "html": ["IEEE: Wireless Communications Magazine" , " Springer Nature: Multimedia Tools and Applications, Information processing & Management, Aquaculture International,  International Journal of Information Management,  IEEE Access"]
+    "html": ["Transactions on Machine Learning Research (TMLR), IEEE: Wireless Communications Magazine" , " Springer Nature: Multimedia Tools and Applications, Information processing & Management, Aquaculture International,  International Journal of Information Management,  IEEE Access"]
   }
 ]
