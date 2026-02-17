@@ -103,28 +103,6 @@
     "topic": "",
     "media": {
       "type": "image",
-      "src": "assets/images/research/ngrf_kdd.png"
-    },
-    "details": {
-      "title": "Neural Gaussian Radio Fields for Channel Estimation",
-      "authors": [
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",       "strong": false },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",     "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                   "strong": true  },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/", "strong": false }
-      ],
-      "venue": "KDD'26",
-      "research_highlights": ["Submitted"],
-      "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2508.11668" }
-      ]
-    }
-  },
-  {
-    "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
       "src": "assets/images/research/icassp_continual.png"
     },
     "details": {
@@ -139,7 +117,7 @@
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
       ],
       "venue": "ICASSP'26",
-      "research_highlights": ["Submitted"],
+      "research_highlights": ["Accepted 🎉"],
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2509.15192" }
       ]
@@ -155,8 +133,8 @@
     "details": {
       "title": "Conditional Prior-Based Non-Stationary Channel Estimation Using Accelerated Diffusion Models",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
         { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
         { "name": "A. Ali",                "href": "",                                                              "strong": false },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
@@ -164,7 +142,7 @@
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
       ],
       "venue": "ICASSP'26",
-      "research_highlights": ["Submitted"],
+      "research_highlights": ["Accepted 🎉"],
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2509.15182" }
       ]
@@ -189,9 +167,31 @@
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                             "strong": false }
       ],
       "venue": "ICC'26",
-      "research_highlights": ["Submitted"],
+      "research_highlights": ["Accepted 🎉"],
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2511.01333" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "topic": "",
+    "media": {
+      "type": "image",
+      "src": "assets/images/research/ngrf_kdd.png"
+    },
+    "details": {
+      "title": "Neural Gaussian Radio Fields for Channel Estimation",
+      "authors": [
+        { "name": "Muhammad Umer*",         "href": "https://muhd-umer.github.io/",       "strong": false },
+        { "name": "Ahsan Bilal*",           "href": "",                                   "strong": true  },
+        { "name": "Muhammad Ahmed Mohsin*", "href": "https://ahmd-mohsin.github.io/",     "strong": false },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/", "strong": false }
+      ],
+      "venue": "KDD'26",
+      "research_highlights": ["Submitted"],
+      "links": [
+        { "label": "arXiv", "href": "https://arxiv.org/pdf/2508.11668" }
       ]
     }
   },
