@@ -39,10 +39,10 @@
         { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
         { "name": "Z. He",                 "href": "",                                                              "strong": false },
         { "name": "M.U. Rafique",          "href": "",                                                              "strong": false },
-        { "name": "A. Aali",               "href": "",                                                              "strong": false },
+        { "name": "Asad Aali",               "href": "https://asadaali.com/",                                                              "strong": false },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false },
-        { "name": "E. Fox",                "href": "",                                                              "strong": false }
+        { "name": "Emily Fox",                "href": "https://www.cs.stanford.edu/people/emily-fox",                                                              "strong": false }
       ],
       "venue": "ICML'26",
       "research_highlights": ["Submitted"],
@@ -66,7 +66,7 @@
         { "name": "Ahsan Bilal",         "href": "",                                                               "strong": true  },
         { "name": "C. Ding",             "href": "",                                                               "strong": false },
         { "name": "A.K.S. Yadav",        "href": "",                                                               "strong": false },
-        { "name": "T. Weissman",         "href": "",                                                               "strong": false }
+        { "name": "Tsachy Weissman",         "href": "https://web.stanford.edu/~tsachy/",                                                               "strong": false }
       ],
       "venue": "NeurIPS'25",
       "research_highlights": ["Accepted 🎉"],
@@ -87,8 +87,9 @@
       "authors": [
         { "name": "Muhammad Ahmed Mohsin",             "href": "https://ahmd-mohsin.github.io/", "strong": false },
         { "name": "Ahsan Bilal",                       "href": "",                               "strong": true  },
-        { "name": "W. Zhao",                           "href": "",                               "strong": false },
         { "name": "Muhammad Umer",                     "href": "https://muhd-umer.github.io/",   "strong": false },
+        { "name": "Asad Aali",               "href": "https://asadaali.com/",                    "strong": false },
+        { "name": "W. Zhao",                           "href": "",                               "strong": false },
         { "name": "Researchers from DeepMind and Meta","href": "",                               "strong": false }
       ],
       "venue": "TMLR'26",
