@@ -5,7 +5,9 @@
     <meta name="author" content="Ahsan Bilal"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="description" content="Ahsan Bilal — PhD student in Computer Science at the University of Oklahoma. Research on machine learning, deep learning, large language models, and explainable AI."/>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/site.css"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
@@ -45,7 +47,7 @@
     <meta name="msapplication-square150x150logo" content="//https://www.ou.edu/content/brand/logos-and-wordmarks/_jcr_content/content/section_817570393_co_218910412/par/image.img.png/1676658135232.png"/>
     <meta name="msapplication-square310x310logo" content="//https://www.ou.edu/content/brand/logos-and-wordmarks/_jcr_content/content/section_817570393_co_218910412/par/image.img.png/1676658135232.png"/>
 
-    <link rel="icon" type="image/png" href="ou_logo.png">
+    <link rel="icon" type="image/png" href="assets/images/ou_logo.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGHM78BZFM"></script>
@@ -74,12 +76,29 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMNRMQWZ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-     
+
     <script src="assets/js/pub-utils.js"></script>
     <script src="assets/js/list-render.js"></script>
     <script src="assets/js/publications.js"></script>
     <script src="assets/js/news.js"></script>
+    <script src="assets/js/interests.js"></script>
     <script src="assets/js/review.js"></script>
+    <script src="assets/js/awards.js"></script>
+
+<nav id="nav">
+    <div class="container nav-inner">
+        <a href="#top" class="nav-brand">Ahsan Bilal</a>
+        <ul>
+            <li><a href="#top">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#research">Research Papers</a></li>
+            <li><a href="#interests">Research Interests</a></li>
+            <li><a href="#reviewing">Reviewing</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="assets/pdfs/cv.pdf" target="_blank" class="nav-cv">CV</a></li>
+        </ul>
+    </div>
+</nav>
 
 <article id="top" class="wrapper style1">
     <div class="container">
@@ -89,22 +108,22 @@
                     <h1 class="strong">Ahsan Bilal</h1>
                 </header>
                 <article>
-                    I am a third-year graduate student in Computer Science at 
-                    <a href="https://www.ou.edu/" target="_blank">University of Oklahoma</a>,  
-                    advised by <a href="https://www.cs.ou.edu/~hougen/resume.html" target="_blank" style="white-space:nowrap">Dr. Dean Hougen</a>.  
-                    My research focuses on machine learning, deep learning, large language models, and explainable AI.  
+                    I am a third-year graduate student in Computer Science at
+                    <a href="https://www.ou.edu/" target="_blank">University of Oklahoma</a>,
+                    advised by <a href="https://www.cs.ou.edu/~hougen/resume.html" target="_blank" style="white-space:nowrap">Dr. Dean Hougen</a>.
+                    My research focuses on machine learning, deep learning, large language models, and explainable AI.
                     <br>
-                    Previously, I earned my Bachelor of Engineering in Electrical Engineering from 
-                    <a href="https://www.nust.edu.pk/" target="_blank">National University of Sciences &amp; Technology (NUST)</a> in Islamabad, 
-                    where I was fortunate to work with <a href="https://seecs.nust.edu.pk/faculty/ahmad-salman/" target="_blank" style="white-space:nowrap">Dr. Ahmad Salman</a> and my final year project was adjudged the 1st Best Industry Project.                    .  
+                    Previously, I earned my Bachelor of Engineering in Electrical Engineering from
+                    <a href="https://www.nust.edu.pk/" target="_blank">National University of Sciences &amp; Technology (NUST)</a> in Islamabad,
+                    where I was fortunate to work with <a href="https://seecs.nust.edu.pk/faculty/ahmad-salman/" target="_blank" style="white-space:nowrap">Dr. Ahmad Salman</a> and my final year project was adjudged the 1st Best Industry Project.                    .
                     <br>
-                    I have industry experience as a Machine Learning Engineer at 
-                    <a href="https://cowlar.com/" target="_blank">Cowlar Design Studio (YC ’21)</a>, and as a UX/UI Designer at <a href="https://meraki-it.pk/" target="_blank">Meraki-IT</a>.  
+                    I have industry experience as a Machine Learning Engineer at
+                    <a href="https://cowlar.com/" target="_blank">Cowlar Design Studio (YC ’21)</a>, and as a UX/UI Designer at <a href="https://meraki-it.pk/" target="_blank">Meraki-IT</a>.
                     I also delivered a talk on <strong>“AI in Healthcare”</strong> at Norman Regional Hospital under <a href="https://www.normanregional.com/provider-directory/lubna-mirza-md/" target="_blank" style="white-space:nowrap">Dr. Lubna Mirza</a>.
-                    You can also explore my creative work in 
+                    You can also explore my creative work in
   <a href="https://ahsan-bilal.netlify.app/" target="_blank"> UI/UX design</a>.
-                  </article>  
-                  
+                  </article>
+
                 <ul class="icons">
                     <li><a href="mailto:ahsan.bilal-1@ou.edu" target="_blank"
                            class="icon fa-light fa-envelope" style="border-bottom: none; color: gray"
@@ -145,58 +164,84 @@
 </article>
 
 
-<article class="wrapper style3">
+<article id="news" class="wrapper style3">
     <div class="container">
-      <header>
-        <h2>News</h2>
+      <header class="section-header">
+        <div>
+          <span class="kicker">Latest</span>
+          <h2>News</h2>
+        </div>
       </header>
       <!-- this <ul> will be populated dynamically by assets/js/news.js -->
-      <ul id="news-list"></ul>
+      <ul class="entry-list" id="news-list"></ul>
     </div>
   </article>
 
-<article class="wrapper review_style1">
+<article id="research" class="wrapper style2">
     <div class="container">
-      <header>
-        <h2>Reviewer</h2>
+      <header class="section-header">
+        <div>
+          <span class="kicker">Publications</span>
+          <h2>Research Papers</h2>
+        </div>
+        <div class="pub-filter-bar" id="toggle-pub-container">
+          <button type="button" class="pub-filter is-active" data-filter="all">All</button>
+          <button type="button" class="pub-filter" data-filter="representative">Featured</button>
+          <button type="button" class="pub-filter" data-filter="accepted">Accepted</button>
+          <button type="button" class="pub-filter" data-filter="submitted">Submitted</button>
+        </div>
       </header>
-      <!-- this <ul> will be populated dynamically by assets/js/review.js -->
-      <ul id="review-list"></ul>
-    </div>
-  </article>
-  
-<article class="wrapper style2">
-    <div class="container">
-      <header>
-        <h2>
-          Research
-          <span class="toggle-pub" id="toggle-pub-container">
-            [
-            <a href="javascript:void(0);" class="pub-filter" data-filter="representative">representative</a>
-            |
-            <a href="javascript:void(0);" class="pub-filter" data-filter="all">all</a>
-            |
-            <a href="javascript:void(0);" class="pub-filter" data-filter="accepted">accepted</a>
-            |
-            <a href="javascript:void(0);" class="pub-filter" data-filter="submitted">submitted</a>
-             ]
-          </span>
-        </h2>
-      </header>
-  
-      <!-- this will get populated dynamically -->
-      <div class="row" id="publications"></div>
+
+      <!-- this will get populated dynamically by assets/js/publications.js -->
+      <div class="pub-list" id="pub-list"></div>
     </div>
 </article>
 
+<article id="interests" class="wrapper style3">
+    <div class="container">
+      <header class="section-header">
+        <div>
+          <span class="kicker">Current Focus</span>
+          <h2>Research Interests</h2>
+        </div>
+      </header>
+      <!-- this <ul> will be populated dynamically by assets/js/interests.js -->
+      <ul class="interest-list" id="interest-list"></ul>
+    </div>
+</article>
 
-  
+<article id="reviewing" class="wrapper style3">
+    <div class="container">
+      <header class="section-header">
+        <div>
+          <span class="kicker">Service</span>
+          <h2>Conference Reviewer</h2>
+        </div>
+      </header>
+      <!-- this <ul> will be populated dynamically by assets/js/review.js -->
+      <ul class="entry-list" id="review-list"></ul>
+    </div>
+  </article>
+
+<article id="awards" class="wrapper style3">
+    <div class="container">
+      <header class="section-header">
+        <div>
+          <span class="kicker">Honors</span>
+          <h2>Awards and Recognitions</h2>
+        </div>
+      </header>
+      <!-- this <ul> will be populated dynamically by assets/js/awards.js -->
+      <ul class="entry-list" id="awards-list"></ul>
+    </div>
+</article>
+
 
 <article class="wrapper style4">
     <div class="container medium">
         <footer>
             <ul id="copyright">
-                <li>&copy; 2025 Ahsan Bilal</li>
+                <li>&copy; 2025&ndash;2026 Ahsan Bilal</li>
             </ul>
         </footer>
     </div>

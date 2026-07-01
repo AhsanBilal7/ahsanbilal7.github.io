@@ -1,427 +1,339 @@
 [
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/epistemic.png"
-    },
     "details": {
       "title": "Epistemic Uncertainty for Test-Time Discovery",
       "authors": [
-        { "name": "Kainat Riaz",           "href": "",                                                              "strong": false },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Ayesha Mohsin",         "href": "",                                                              "strong": false },
-        { "name": "Aqib Riaz",             "href": "",                                                              "strong": false },
-        { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/",                              "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+        { "name": "Kainat Riaz",           "href": "" },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ayesha Mohsin",         "href": "" },
+        { "name": "Aqib Riaz",             "href": "" },
+        { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "NeurIPS'26",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2605.11328" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2605.11328" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/gprl.png"
-    },
     "details": {
       "title": "General Preference Reinforcement Learning",
       "authors": [
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Arslan Chaudhry",       "href": "https://arslan-chaudhry.github.io/",                            "strong": false },
-        { "name": "Andreas Haupt",         "href": "",                                                              "strong": false },
-        { "name": "Sanmi Koyejo",          "href": "",                                                              "strong": false },
-        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/",                                 "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Arslan Chaudhry",       "href": "https://arslan-chaudhry.github.io/" },
+        { "name": "Andreas Haupt",         "href": "" },
+        { "name": "Sanmi Koyejo",          "href": "" },
+        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "NeurIPS'26",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2605.18721" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2605.18721" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/pressure.png"
-    },
     "details": {
       "title": "Pressure, What Pressure? Sycophancy Disentanglement in Language Models via Reward Decomposition",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/",                                 "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" }
       ],
       "venue": "NeurIPS'26",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2604.05279" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2604.05279" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/s^3.png"
-    },
     "details": {
       "title": "S3: Stratified Scaling Search for Test-Time in Diffusion Language Models",
       "authors": [
-        { "name": "Ahsan Bilal",              "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Ahmed Mohsin",    "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",            "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Asad Aali",                "href": "https://asadaali.com/",                                         "strong": false },
-        { "name": "Muhammad Usman Khanzada",  "href": "",                                                              "strong": false },
-        { "name": "Muhammad Usman Rafique",   "href": "",                                                              "strong": false },
-        { "name": "Zihao He",                 "href": "",                                                              "strong": false },
-        { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/",                                "strong": false },
-        { "name": "Dean F. Hougen",           "href": "",                                                              "strong": false }
+        { "name": "Ahsan Bilal",              "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin",    "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",            "href": "https://muhd-umer.github.io/" },
+        { "name": "Asad Aali",                "href": "https://asadaali.com/" },
+        { "name": "Muhammad Usman Khanzada",  "href": "" },
+        { "name": "Muhammad Usman Rafique",   "href": "" },
+        { "name": "Zihao He",                 "href": "" },
+        { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/" },
+        { "name": "Dean F. Hougen",           "href": "" }
       ],
       "venue": "COLM'26",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2604.06260" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2604.06260" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/test_time_compute.png"
-    },
     "details": {
       "title": "What If We Allocate Test-Time Compute Adaptively?",
       "authors": [
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/",                              "strong": false },
-        { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en", "strong": false },
-        { "name": "Ahmad Mohsin",          "href": "",                                                              "strong": false },
-        { "name": "Dean F. Hougen",        "href": "",                                                              "strong": false }
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
+        { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en" },
+        { "name": "Ahmad Mohsin",          "href": "" },
+        { "name": "Dean F. Hougen",        "href": "" }
       ],
       "venue": "ICML'26",
-      "research_highlights": ["Accepted 🎉"],
+      "status": "accepted",
       "announced": "May 2026",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2602.01070" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2602.01070" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/cudpo.png"
-    },
     "details": {
       "title": "Continuous-Utility Direct Preference Optimization",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Z. He",                 "href": "",                                                              "strong": false },
-        { "name": "M.U. Rafique",          "href": "",                                                              "strong": false },
-        { "name": "Asad Aali",               "href": "https://asadaali.com/",                                                              "strong": false },
-        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false },
-        { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/",                                                              "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Z. He",                 "href": "" },
+        { "name": "M.U. Rafique",          "href": "" },
+        { "name": "Asad Aali",             "href": "https://asadaali.com/" },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" },
+        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" }
       ],
       "venue": "ICML'26",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2602.00931" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2602.00931" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/neurips_diffusion.png"
-    },
     "details": {
       "title": "ITDPDM: Information-Theoretic Discrete Poisson Diffusion Model",
       "authors": [
-        { "name": "Sagnik Bhattacharya", "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en", "strong": false },
-        { "name": "A.R. Gorle",          "href": "",                                                               "strong": false },
-        { "name": "Ahsan Bilal",         "href": "",                                                               "strong": true  },
-        { "name": "C. Ding",             "href": "",                                                               "strong": false },
-        { "name": "A.K.S. Yadav",        "href": "",                                                               "strong": false },
-        { "name": "Tsachy Weissman",         "href": "https://web.stanford.edu/~tsachy/",                                                               "strong": false }
+        { "name": "Sagnik Bhattacharya", "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
+        { "name": "A.R. Gorle",          "href": "" },
+        { "name": "Ahsan Bilal",         "href": "", "strong": true },
+        { "name": "C. Ding",             "href": "" },
+        { "name": "A.K.S. Yadav",        "href": "" },
+        { "name": "Tsachy Weissman",     "href": "https://web.stanford.edu/~tsachy/" }
       ],
       "venue": "NeurIPS'25",
-      "research_highlights": ["Accepted 🎉"],
+      "status": "accepted",
       "announced": "Sep 2025",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2505.05082" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2505.05082" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/tmlr_limits.png"
-    },
     "details": {
       "title": "On the Fundamental Limits of LLMs at Scale",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin",             "href": "https://ahmd-mohsin.github.io/", "strong": false },
-        { "name": "Ahsan Bilal",                       "href": "",                               "strong": true  },
-        { "name": "Muhammad Umer",                     "href": "https://muhd-umer.github.io/",   "strong": false },
-        { "name": "Asad Aali",               "href": "https://asadaali.com/",                    "strong": false },
-        { "name": "W. Zhao",                           "href": "",                               "strong": false },
-        { "name": "Researchers from DeepMind and Meta","href": "",                               "strong": false }
+        { "name": "Muhammad Ahmed Mohsin",              "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",                        "href": "", "strong": true },
+        { "name": "Muhammad Umer",                      "href": "https://muhd-umer.github.io/" },
+        { "name": "Asad Aali",                          "href": "https://asadaali.com/" },
+        { "name": "W. Zhao",                            "href": "" },
+        { "name": "Researchers from DeepMind and Meta", "href": "" }
       ],
       "venue": "TMLR'26",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2511.12869" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2511.12869" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/ngrf_kdd.png"
-    },
     "details": {
       "title": "Neural Gaussian Radio Fields for Channel Estimation",
       "authors": [
-        { "name": "Muhammad Umer*",         "href": "https://muhd-umer.github.io/",       "strong": false },
-        { "name": "Ahsan Bilal*",           "href": "",                                   "strong": true  },
-        { "name": "Muhammad Ahmed Mohsin*", "href": "https://ahmd-mohsin.github.io/",     "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/", "strong": false }
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",   "equal": true },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true,               "equal": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "KDD'26",
       "venue_href": "https://kdd2026.kdd.org/",
-      "research_highlights": ["Accepted 🎉"],
+      "status": "accepted",
       "announced": "June 2026",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2508.11668" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2508.11668" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/icassp_continual.png"
-    },
     "details": {
       "title": "Channel Prediction Under Network Distribution Shift Using Continual Learning-Based Loss Regularization",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "M.I. Qadir",            "href": "",                                                              "strong": false },
-        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
-        { "name": "Dean F. Hougen",        "href": "",                                                              "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "M.I. Qadir",            "href": "" },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICASSP'26",
-      "research_highlights": ["Accepted 🎉"],
+      "status": "accepted",
       "announced": "Jan 2026",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2509.15192" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2509.15192" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/icassp_diffusion.png"
-    },
     "details": {
       "title": "Conditional Prior-Based Non-Stationary Channel Estimation Using Accelerated Diffusion Models",
       "authors": [
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "A. Ali",                "href": "",                                                              "strong": false },
-        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
-        { "name": "Dean F. Hougen",        "href": "",                                                              "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "A. Ali",                "href": "" },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICASSP'26",
-      "research_highlights": ["Accepted 🎉"],
+      "status": "accepted",
       "announced": "Jan 2026",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2509.15182" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2509.15182" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/icc26_sparse.png"
-    },
     "details": {
       "title": "Transformer-Based Sparse CSI Estimation for Non-Stationary Channels",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                                "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                   "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                               "strong": true  },
-        { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en",  "strong": false },
-        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en", "strong": false },
-        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en",  "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                             "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en" },
+        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICC'26",
-      "research_highlights": ["Accepted 🎉"],
+      "status": "accepted",
       "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2511.01333" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2511.01333" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/continual_archi.png"
-    },
     "details": {
       "title": "Continual Learning for Wireless Channel Prediction",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICML'25 Workshop",
-      "research_highlights": ["Accepted"],
+      "status": "accepted",
       "announced": "June 2025",
       "links": [
-        { "label": "arXiv",   "href": "https://arxiv.org/pdf/2501.17879" },
+        { "label": "PDF",     "href": "https://arxiv.org/pdf/2501.17879" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/wireless_continual" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/task_aware.png"
-    },
     "details": {
       "title": "Task Aware Distributed Source Coding for Correlated Audio Signals Using Perceptual Loss",
       "authors": [
-        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en", "strong": false },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                                "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "AAAI'25 Workshop",
-      "research_highlights": ["Accepted"],
+      "status": "accepted",
       "announced": "Jan 2025",
       "links": [
-        { "label": "arXiv",   "href": "https://arxiv.org/pdf/2501.17879" },
+        { "label": "PDF",     "href": "https://arxiv.org/pdf/2501.17879" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/task_aware" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/rag_wireless.png"
-    },
     "details": {
       "title": "Retrieval Augmented Generation with Multi-Modal LLM Framework for Wireless Environments",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                                "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                               "strong": true  },
-        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en", "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                             "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICC'25 Workshop",
-      "research_highlights": ["Accepted 🎉 Best Paper Award 🎉"],
+      "status": "accepted",
+      "badges": ["Best Paper Award"],
       "announced": "June 2025",
       "links": [
-        { "label": "arXiv",   "href": "https://arxiv.org/pdf/2503.07670" },
+        { "label": "PDF",     "href": "https://arxiv.org/pdf/2503.07670" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/RAG_wireless.html" }
-      ],
-      "collaborator": [
-        { "outlet": "Intel Corporation",      "href": "https://www.intel.com/content/www/us/en/homepage.html" },
-        { "outlet": "Samsung Semiconductors", "href": "https://semiconductor.samsung.com/us/" },
-        { "outlet": "Ericsson",               "href": "https://www.ericsson.com/en" }
       ]
     }
   },
   {
     "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/hierarchical.png"
-    },
     "details": {
       "title": "Hierarchical Deep Reinforcement Learning for Spectrum Resource Optimization in Integrated Terrestrial and Non-Terrestrial Networks",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                                "strong": false },
-        { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en",  "strong": false },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                   "strong": false },
-        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en", "strong": false },
-        { "name": "Ahsan Bilal",           "href": "",                                                               "strong": true  },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                             "strong": false }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "AAAI'25 Workshop",
-      "research_highlights": ["Accepted"],
+      "status": "accepted",
       "announced": "Jan 2025",
       "links": [
-        { "label": "arXiv",   "href": "https://arxiv.org/pdf/2501.09212" },
+        { "label": "PDF",     "href": "https://arxiv.org/pdf/2501.09212" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/hierarchical_wireless.html" }
       ]
     }
   },
   {
     "selected": false,
-    "topic": "rl_syn",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/dsaa_runner_up_award.jpeg"
-    },
     "details": {
       "title": "Abstract – LLM for Explainable AI",
       "authors": [
-        { "name": "Ahsan Bilal", "href": "",                              "strong": true  },
-        { "name": "Bieyu Lin",   "href": "https://beiyulincs.github.io/", "strong": false }
+        { "name": "Ahsan Bilal", "href": "", "strong": true },
+        { "name": "Bieyu Lin",   "href": "https://beiyulincs.github.io/" }
       ],
       "venue": "IEEE DSAA'24",
-      "research_highlights": ["Poster Accepted"],
+      "status": "accepted",
+      "badges": ["Poster"],
       "links": [
         { "label": "presentation", "href": "assets/images/research/dsaa_runner_up_award.jpeg" }
       ]
@@ -429,64 +341,49 @@
   },
   {
     "selected": false,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/meta_rl.png"
-    },
     "details": {
       "title": "Meta-Thinking in LLMs via Multi-Agent Reinforcement Learning: A Survey",
       "authors": [
-        { "name": "Ahsan Bilal",                 "href": "",                                                              "strong": true  },
-        { "name": "Muhammad Ahmed Mohsin",        "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
-        { "name": "Muhammad Umer",               "href": "https://muhd-umer.github.io/",                                  "strong": false },
-        { "name": "Muhammad Awais Khan Bangash",  "href": "",                                                              "strong": false },
-        { "name": "Muhammad Ali Jamshed",        "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false }
+        { "name": "Ahsan Bilal",                  "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin",        "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",                "href": "https://muhd-umer.github.io/" },
+        { "name": "Muhammad Awais Khan Bangash",  "href": "" },
+        { "name": "Muhammad Ali Jamshed",         "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" }
       ],
       "venue": "IEEE TAI",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": [
-        { "label": "arXiv",   "href": "https://arxiv.org/pdf/2504.14520" },
+        { "label": "PDF",     "href": "https://arxiv.org/pdf/2504.14520" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/meta_thinking_llms.html" }
       ]
     }
   },
   {
     "selected": false,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/ieee_access.png"
-    },
     "details": {
       "title": "On Shadow Removal With Boosted Attention in a Vision Transformer",
       "authors": [
-        { "name": "Ahsan Bilal",     "href": "",                                                              "strong": true  },
-        { "name": "Ahmad Salman",    "href": "https://seecs.nust.edu.pk/faculty/ahmad-salman/",               "strong": false },
-        { "name": "Khawar Khurshid", "href": "https://namal.edu.pk/faculty/profile/150/dr-khawar-khurshid",   "strong": false },
-        { "name": "Dean F. Hougen",  "href": "",                                                               "strong": false }
+        { "name": "Ahsan Bilal",     "href": "", "strong": true },
+        { "name": "Ahmad Salman",    "href": "https://seecs.nust.edu.pk/faculty/ahmad-salman/" },
+        { "name": "Khawar Khurshid", "href": "https://namal.edu.pk/faculty/profile/150/dr-khawar-khurshid" },
+        { "name": "Dean F. Hougen",  "href": "" }
       ],
       "venue": "Springer ML",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": []
     }
   },
   {
     "selected": false,
-    "topic": "",
-    "media": {
-      "type": "image",
-      "src": "assets/images/research/person_iden.png"
-    },
     "details": {
       "title": "Person Identification using Gait with Fused Graph and 3D-Convolutional Architectures",
       "authors": [
-        { "name": "Ahsan Bilal",     "href": "",                                                              "strong": true  },
-        { "name": "Ahmad Salman",    "href": "https://seecs.nust.edu.pk/faculty/ahmad-salman/",               "strong": false },
-        { "name": "Khawar Khurshid", "href": "https://namal.edu.pk/faculty/profile/150/dr-khawar-khurshid",  "strong": false }
+        { "name": "Ahsan Bilal",     "href": "", "strong": true },
+        { "name": "Ahmad Salman",    "href": "https://seecs.nust.edu.pk/faculty/ahmad-salman/" },
+        { "name": "Khawar Khurshid", "href": "https://namal.edu.pk/faculty/profile/150/dr-khawar-khurshid" }
       ],
       "venue": "ACM TAIS",
-      "research_highlights": ["Submitted"],
+      "status": "submitted",
       "links": []
     }
   }

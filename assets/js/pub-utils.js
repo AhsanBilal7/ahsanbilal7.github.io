@@ -1,24 +1,8 @@
 // pub-utils.js
-// Shared helpers for deriving publication status/dates so publications.json
-// stays the single source of truth for the Research and News sections.
+// Shared date helpers so publications.json stays the single source of truth
+// for the Research Papers and News sections.
 window.PubUtils = (function () {
   const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-
-  function classifyHighlight(text) {
-    const t = (text || '').toLowerCase();
-    if (/accept/.test(t)) return 'accepted';
-    if (/submit/.test(t)) return 'submitted';
-    return null;
-  }
-
-  function pubStatuses(highlights) {
-    const statuses = new Set();
-    (highlights || []).forEach(h => {
-      const s = classifyHighlight(h);
-      if (s) statuses.add(s);
-    });
-    return statuses;
-  }
 
   // "May 2026" -> { year: 2026, month: 4 }
   function parseMonthYear(str) {
@@ -46,5 +30,5 @@ window.PubUtils = (function () {
     return dateInfo.year * 12 + month;
   }
 
-  return { classifyHighlight, pubStatuses, parseMonthYear, yearFromVenue, sortKey };
+  return { parseMonthYear, yearFromVenue, sortKey };
 })();

@@ -14,26 +14,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
       publications.forEach(pub => {
         const d = pub.details || {};
-        const statuses = PubUtils.pubStatuses(d.research_highlights);
-        if (!statuses.has('accepted')) return;
+        if (d.status !== 'accepted') return;
 
         const explicitDate = PubUtils.parseMonthYear(d.announced);
         const venueYear = PubUtils.yearFromVenue(d.venue);
         const dateInfo = explicitDate || (venueYear ? { year: venueYear, month: null } : null);
         if (!dateInfo) return;
 
-        const arxiv = (d.links || []).find(l => /arxiv/i.test(l.label || ''));
-        const titleHtml = arxiv
-          ? `<a href="${arxiv.href}" target="_blank">"${d.title}"</a>`
+        const pdf = (d.links || []).find(l => /pdf|arxiv/i.test(l.label || ''));
+        const titleHtml = pdf
+          ? `<a href="${pdf.href}" target="_blank">"${d.title}"</a>`
           : `"${d.title}"`;
         const venueHtml = d.venue_href
           ? `<a href="${d.venue_href}" target="_blank">${d.venue || ''}</a>`
           : (d.venue || '');
-        const isBestPaper = (d.research_highlights || []).some(h => /best paper/i.test(h));
+        const isBestPaper = (d.badges || []).some(b => /best paper/i.test(b));
 
         autoItems.push({
           date: d.announced || String(dateInfo.year),
-          html: `🎉 Paper accepted at <strong>${venueHtml}</strong>: ${titleHtml}${isBestPaper ? ' — 🏆 Best Paper Award' : ''}`,
+          html: `Paper accepted at <strong>${venueHtml}</strong>: ${titleHtml}${isBestPaper ? ' — Best Paper Award' : ''}`,
           _sortKey: PubUtils.sortKey(dateInfo)
         });
       });

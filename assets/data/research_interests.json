@@ -1,0 +1,12 @@
+[
+  { "title": "Test-Time Scaling & Adaptive Compute for LLMs",            "venue": "ICML'26",          "status": "accepted"  },
+  { "title": "Preference Optimization & Reward Modeling",                "venue": "NeurIPS'26",       "status": "submitted" },
+  { "title": "Diffusion Language Models",                                "venue": "COLM'26",          "status": "submitted" },
+  { "title": "Diffusion & Generative Models",                            "venue": "NeurIPS'25",       "status": "accepted"  },
+  { "title": "Fundamental Limits & Scaling Laws of LLMs",                "venue": "TMLR'26",          "status": "submitted" },
+  { "title": "Multi-Agent Reinforcement Learning & Meta-Reasoning",      "venue": "IEEE TAI",         "status": "submitted" },
+  { "title": "Neural Radio Fields & Wireless Channel Estimation",        "venue": "KDD'26",           "status": "accepted"  },
+  { "title": "Continual & Meta-Learning for Non-Stationary Systems",     "venue": "ICML'25 Workshop", "status": "accepted"  },
+  { "title": "Retrieval-Augmented Generation for Wireless Systems",      "venue": "ICC'25 Workshop",  "status": "accepted"  },
+  { "title": "Explainable AI",                                          "venue": "IEEE DSAA'24",     "status": "accepted"  }
+]
