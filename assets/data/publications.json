@@ -4,6 +4,107 @@
     "topic": "",
     "media": {
       "type": "image",
+      "src": "assets/images/research/epistemic.png"
+    },
+    "details": {
+      "title": "Epistemic Uncertainty for Test-Time Discovery",
+      "authors": [
+        { "name": "Kainat Riaz",           "href": "",                                                              "strong": false },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
+        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
+        { "name": "Ayesha Mohsin",         "href": "",                                                              "strong": false },
+        { "name": "Aqib Riaz",             "href": "",                                                              "strong": false },
+        { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/",                              "strong": false },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+      ],
+      "venue": "NeurIPS'26",
+      "research_highlights": ["Submitted"],
+      "links": [
+        { "label": "arXiv", "href": "https://arxiv.org/pdf/2605.11328" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "topic": "",
+    "media": {
+      "type": "image",
+      "src": "assets/images/research/gprl.png"
+    },
+    "details": {
+      "title": "General Preference Reinforcement Learning",
+      "authors": [
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
+        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
+        { "name": "Arslan Chaudhry",       "href": "https://arslan-chaudhry.github.io/",                            "strong": false },
+        { "name": "Andreas Haupt",         "href": "",                                                              "strong": false },
+        { "name": "Sanmi Koyejo",          "href": "",                                                              "strong": false },
+        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/",                                 "strong": false },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false }
+      ],
+      "venue": "NeurIPS'26",
+      "research_highlights": ["Submitted"],
+      "links": [
+        { "label": "arXiv", "href": "https://arxiv.org/pdf/2605.18721" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "topic": "",
+    "media": {
+      "type": "image",
+      "src": "assets/images/research/pressure.png"
+    },
+    "details": {
+      "title": "Pressure, What Pressure? Sycophancy Disentanglement in Language Models via Reward Decomposition",
+      "authors": [
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
+        { "name": "Ahsan Bilal",           "href": "",                                                              "strong": true  },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",                                  "strong": false },
+        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/",                                 "strong": false }
+      ],
+      "venue": "NeurIPS'26",
+      "research_highlights": ["Submitted"],
+      "links": [
+        { "label": "arXiv", "href": "https://arxiv.org/pdf/2604.05279" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "topic": "",
+    "media": {
+      "type": "image",
+      "src": "assets/images/research/s^3.png"
+    },
+    "details": {
+      "title": "S3: Stratified Scaling Search for Test-Time in Diffusion Language Models",
+      "authors": [
+        { "name": "Ahsan Bilal",              "href": "",                                                              "strong": true  },
+        { "name": "Muhammad Ahmed Mohsin",    "href": "https://ahmd-mohsin.github.io/",                               "strong": false },
+        { "name": "Muhammad Umer",            "href": "https://muhd-umer.github.io/",                                  "strong": false },
+        { "name": "Asad Aali",                "href": "https://asadaali.com/",                                         "strong": false },
+        { "name": "Muhammad Usman Khanzada",  "href": "",                                                              "strong": false },
+        { "name": "Muhammad Usman Rafique",   "href": "",                                                              "strong": false },
+        { "name": "Zihao He",                 "href": "",                                                              "strong": false },
+        { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/",                                "strong": false },
+        { "name": "Dean F. Hougen",           "href": "",                                                              "strong": false }
+      ],
+      "venue": "COLM'26",
+      "research_highlights": ["Submitted"],
+      "links": [
+        { "label": "arXiv", "href": "https://arxiv.org/pdf/2604.06260" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "topic": "",
+    "media": {
+      "type": "image",
       "src": "assets/images/research/test_time_compute.png"
     },
     "details": {
@@ -19,6 +120,7 @@
       ],
       "venue": "ICML'26",
       "research_highlights": ["Accepted 🎉"],
+      "announced": "May 2026",
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2602.01070" }
       ]
@@ -42,7 +144,7 @@
         { "name": "Asad Aali",               "href": "https://asadaali.com/",                                                              "strong": false },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en", "strong": false },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/",                            "strong": false },
-        { "name": "Emily Fox",                "href": "https://www.cs.stanford.edu/people/emily-fox",                                                              "strong": false }
+        { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/",                                                              "strong": false }
       ],
       "venue": "ICML'26",
       "research_highlights": ["Submitted"],
@@ -70,6 +172,7 @@
       ],
       "venue": "NeurIPS'25",
       "research_highlights": ["Accepted 🎉"],
+      "announced": "Sep 2025",
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2505.05082" }
       ]
@@ -104,6 +207,30 @@
     "topic": "",
     "media": {
       "type": "image",
+      "src": "assets/images/research/ngrf_kdd.png"
+    },
+    "details": {
+      "title": "Neural Gaussian Radio Fields for Channel Estimation",
+      "authors": [
+        { "name": "Muhammad Umer*",         "href": "https://muhd-umer.github.io/",       "strong": false },
+        { "name": "Ahsan Bilal*",           "href": "",                                   "strong": true  },
+        { "name": "Muhammad Ahmed Mohsin*", "href": "https://ahmd-mohsin.github.io/",     "strong": false },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/", "strong": false }
+      ],
+      "venue": "KDD'26",
+      "venue_href": "https://kdd2026.kdd.org/",
+      "research_highlights": ["Accepted 🎉"],
+      "announced": "June 2026",
+      "links": [
+        { "label": "arXiv", "href": "https://arxiv.org/pdf/2508.11668" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "topic": "",
+    "media": {
+      "type": "image",
       "src": "assets/images/research/icassp_continual.png"
     },
     "details": {
@@ -119,6 +246,7 @@
       ],
       "venue": "ICASSP'26",
       "research_highlights": ["Accepted 🎉"],
+      "announced": "Jan 2026",
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2509.15192" }
       ]
@@ -144,6 +272,7 @@
       ],
       "venue": "ICASSP'26",
       "research_highlights": ["Accepted 🎉"],
+      "announced": "Jan 2026",
       "links": [
         { "label": "arXiv", "href": "https://arxiv.org/pdf/2509.15182" }
       ]
@@ -179,28 +308,6 @@
     "topic": "",
     "media": {
       "type": "image",
-      "src": "assets/images/research/ngrf_kdd.png"
-    },
-    "details": {
-      "title": "Neural Gaussian Radio Fields for Channel Estimation",
-      "authors": [
-        { "name": "Muhammad Umer*",         "href": "https://muhd-umer.github.io/",       "strong": false },
-        { "name": "Ahsan Bilal*",           "href": "",                                   "strong": true  },
-        { "name": "Muhammad Ahmed Mohsin*", "href": "https://ahmd-mohsin.github.io/",     "strong": false },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/", "strong": false }
-      ],
-      "venue": "KDD'26",
-      "research_highlights": ["Submitted"],
-      "links": [
-        { "label": "arXiv", "href": "https://arxiv.org/pdf/2508.11668" }
-      ]
-    }
-  },
-  {
-    "selected": true,
-    "topic": "",
-    "media": {
-      "type": "image",
       "src": "assets/images/research/continual_archi.png"
     },
     "details": {
@@ -214,6 +321,7 @@
       ],
       "venue": "ICML'25 Workshop",
       "research_highlights": ["Accepted"],
+      "announced": "June 2025",
       "links": [
         { "label": "arXiv",   "href": "https://arxiv.org/pdf/2501.17879" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/wireless_continual" }
@@ -237,6 +345,7 @@
       ],
       "venue": "AAAI'25 Workshop",
       "research_highlights": ["Accepted"],
+      "announced": "Jan 2025",
       "links": [
         { "label": "arXiv",   "href": "https://arxiv.org/pdf/2501.17879" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/task_aware" }
@@ -260,6 +369,7 @@
       ],
       "venue": "ICC'25 Workshop",
       "research_highlights": ["Accepted 🎉 Best Paper Award 🎉"],
+      "announced": "June 2025",
       "links": [
         { "label": "arXiv",   "href": "https://arxiv.org/pdf/2503.07670" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/RAG_wireless.html" }
@@ -290,6 +400,7 @@
       ],
       "venue": "AAAI'25 Workshop",
       "research_highlights": ["Accepted"],
+      "announced": "Jan 2025",
       "links": [
         { "label": "arXiv",   "href": "https://arxiv.org/pdf/2501.09212" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/hierarchical_wireless.html" }

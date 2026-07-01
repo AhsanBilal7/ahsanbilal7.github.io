@@ -1,10 +1,12 @@
 // publications.js
-
-// Dynamically load and render publication entries with support for videos, images,
-// author footnotes, venue footnotes, research highlights, and media coverage.
+// Renders publication cards from publications.json and drives the
+// representative / all / accepted / submitted filter tabs above the section.
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('publications');
+  const toggleContainer = document.getElementById('toggle-pub-container');
+  const HIDE_TRANSITION_MS = 260;
+  let currentFilter = 'all';
 
   // Utility to create elements with attributes and children
   function el(tag, attrs = {}, ...children) {
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Build one publication card (media or details)
   function buildCard(pub, isMedia) {
+    const statuses = PubUtils.pubStatuses((pub.details || {}).research_highlights);
     const card = el(
       'div',
       {
@@ -30,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
           ? 'col-4 col-4-medium col-4-small vertically_aligned pub-card'
           : 'col-8 col-8-medium col-8-small vertically_aligned pub-card',
         'data-selected': String(pub.selected),
-        'data-topic': pub.topic
+        'data-status-accepted': String(statuses.has('accepted')),
+        'data-status-submitted': String(statuses.has('submitted'))
       }
     );
 
@@ -72,7 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Venue and venue footnote
-      art.appendChild(el('span', { class: 'venue' }, d.venue || ''));
+      const venueContent = d.venue_href
+        ? el('a', { href: d.venue_href, target: '_blank' }, d.venue || '')
+        : (d.venue || '');
+      art.appendChild(el('span', { class: 'venue' }, venueContent));
       art.appendChild(el('br'));
       if (d.venue_footnote) {
         art.appendChild(el('span', { class: 'venue_footnote' }, d.venue_footnote));
@@ -87,9 +94,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       art.appendChild(el('br'));
 
-      // Research highlights
+      // Research highlights (color-coded by status)
       (d.research_highlights || []).forEach(h => {
-        art.appendChild(el('span', { class: 'research_highlight' }, h));
+        const status = PubUtils.classifyHighlight(h);
+        const cls = status ? `research_highlight status-${status}` : 'research_highlight';
+        art.appendChild(el('span', { class: cls }, h));
         art.appendChild(el('br'));
       });
 
@@ -103,22 +112,66 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         art.appendChild(covSpan);
       }
-            // collaborater
-            if (d.collaborater && d.collaborater.length) {
-              const covSpan = el('span', { class: 'collaborater' });
-              d.collaborater.forEach((m, i) => {
-                const a = el('a', { href: m.href, target: '_blank' }, m.outlet);
-                covSpan.appendChild(a);
-                if (i < d.collaborater.length - 1) covSpan.appendChild(document.createTextNode(', '));
-              });
-              art.appendChild(covSpan);
-            }
-          
+
+      // Collaborators
+      if (d.collaborator && d.collaborator.length) {
+        const covSpan = el('span', { class: 'collaborater' });
+        d.collaborator.forEach((m, i) => {
+          const a = el('a', { href: m.href, target: '_blank' }, m.outlet);
+          covSpan.appendChild(a);
+          if (i < d.collaborator.length - 1) covSpan.appendChild(document.createTextNode(', '));
+        });
+        art.appendChild(covSpan);
+      }
     }
 
     card.appendChild(art);
     return card;
   }
+
+  function cardMatchesFilter(card, filter) {
+    switch (filter) {
+      case 'representative': return card.getAttribute('data-selected') === 'true';
+      case 'accepted': return card.getAttribute('data-status-accepted') === 'true';
+      case 'submitted': return card.getAttribute('data-status-submitted') === 'true';
+      case 'all':
+      default: return true;
+    }
+  }
+
+  function showCard(card) {
+    clearTimeout(card._hideTimer);
+    if (card.style.display === 'none') {
+      card.style.display = '';
+      // Force layout before removing the hidden class so the fade transition plays.
+      requestAnimationFrame(() => requestAnimationFrame(() => card.classList.remove('pub-card--hidden')));
+    } else {
+      card.classList.remove('pub-card--hidden');
+    }
+  }
+
+  function hideCard(card) {
+    clearTimeout(card._hideTimer);
+    card.classList.add('pub-card--hidden');
+    card._hideTimer = setTimeout(() => { card.style.display = 'none'; }, HIDE_TRANSITION_MS);
+  }
+
+  function applyFilter(filter) {
+    currentFilter = filter;
+    document.querySelectorAll('.pub-card').forEach(card => {
+      if (cardMatchesFilter(card, filter)) showCard(card);
+      else hideCard(card);
+    });
+    toggleContainer.querySelectorAll('.pub-filter').forEach(tab => {
+      tab.classList.toggle('is-active', tab.dataset.filter === filter);
+    });
+  }
+
+  toggleContainer.addEventListener('click', e => {
+    const tab = e.target.closest('.pub-filter');
+    if (!tab) return;
+    applyFilter(tab.dataset.filter);
+  });
 
   // Load and render JSON data
   fetch('assets/data/publications.json')
@@ -128,16 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
         container.appendChild(buildCard(pub, true));
         container.appendChild(buildCard(pub, false));
       });
+      applyFilter(currentFilter);
     })
     .catch(console.error);
-
-  // Filter toggles
-  document.getElementById('show-selected').addEventListener('click', () => {
-    document.querySelectorAll('.pub-card').forEach(c => {
-      c.style.display = c.dataset.selected === 'true' ? '' : 'none';
-    });
-  });
-  document.getElementById('show-all').addEventListener('click', () => {
-    document.querySelectorAll('.pub-card').forEach(c => (c.style.display = ''));
-  });
 });
