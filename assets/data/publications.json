@@ -156,7 +156,8 @@
         { "name": "Researchers from DeepMind and Meta", "href": "" }
       ],
       "venue": "TMLR'26",
-      "status": "submitted",
+      "status": "accepted",
+      "announced": "June 2026",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2511.12869" }
       ]
@@ -329,7 +330,7 @@
       "title": "Abstract – LLM for Explainable AI",
       "authors": [
         { "name": "Ahsan Bilal", "href": "", "strong": true },
-        { "name": "Bieyu Lin",   "href": "https://beiyulincs.github.io/" }
+        { "name": "Beiyu Lin",   "href": "https://beiyulincs.github.io/" }
       ],
       "venue": "IEEE DSAA'24",
       "status": "accepted",
