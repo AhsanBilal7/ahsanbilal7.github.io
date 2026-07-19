@@ -5,6 +5,17 @@
     <meta name="author" content="Ahsan Bilal"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('theme');
+                var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (stored === 'dark' || (!stored && prefersDark)) {
+                    document.documentElement.classList.add('dark-mode');
+                }
+            } catch (e) {}
+        })();
+    </script>
     <meta name="description" content="Ahsan Bilal — PhD student in Computer Science at the University of Oklahoma. Research on machine learning, deep learning, large language models, and explainable AI."/>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/site.css"/>
@@ -84,19 +95,26 @@
     <script src="assets/js/interests.js"></script>
     <script src="assets/js/review.js"></script>
     <script src="assets/js/awards.js"></script>
+    <script src="assets/js/theme-toggle.js"></script>
 
 <nav id="nav">
     <div class="container nav-inner">
         <a href="#top" class="nav-brand">Ahsan Bilal</a>
-        <ul>
-            <li><a href="#top">About</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#research">Research Papers</a></li>
-            <li><a href="#interests">Research Interests</a></li>
-            <li><a href="#reviewing">Reviewing</a></li>
-            <li><a href="#awards">Awards</a></li>
-            <li><a href="assets/pdfs/cv.pdf" target="_blank" class="nav-cv">CV</a></li>
-        </ul>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#top">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#research">Research Papers</a></li>
+                <li><a href="#interests">Research Interests</a></li>
+                <li><a href="#reviewing">Reviewing</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="assets/pdfs/cv.pdf" target="_blank" class="nav-cv">CV</a></li>
+            </ul>
+            <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-pressed="false">
+                <span class="theme-toggle-icon" aria-hidden="true">&#127769;</span>
+                <span class="theme-toggle-label">Lights off</span>
+            </button>
+        </div>
     </div>
 </nav>
 
@@ -242,6 +260,13 @@
     </div>
 </article>
 
+
+<div class="container medium visitor-map">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=mCaW4vzoKWMJoG-Y9GfWcebLd4aRQoWfN8eYxqcHFhw&cl=ffffff&w=a"></script>
+    <noscript>
+        <a href="https://mapmyvisitors.com/web/1c6oi" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=mCaW4vzoKWMJoG-Y9GfWcebLd4aRQoWfN8eYxqcHFhw&cl=ffffff" /></a>
+    </noscript>
+</div>
 
 <article class="wrapper style4">
     <div class="container medium">

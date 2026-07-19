@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const combined = manualItems.concat(autoItems).sort((a, b) => b._sortKey - a._sortKey);
 
       renderDateList(ul, combined);
+      setupShowMore(ul, 6);
     })
     .catch(err => console.error('Failed to load news:', err));
 });
