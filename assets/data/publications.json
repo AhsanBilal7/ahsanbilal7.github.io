@@ -8,7 +8,7 @@
         { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "W.H. Raza",             "href": "" },
-        { "name": "A.U. Asad",             "href": "" },
+        { "name": "Atta Ul Asad",          "href": "" },
         { "name": "Y.D. Kwon",             "href": "" },
         { "name": "M. Valko",              "href": "" },
         { "name": "Dean F. Hougen",        "href": "" }
@@ -113,6 +113,24 @@
       "status": "submitted",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2604.06260" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "details": {
+      "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
+      "authors": [
+        { "name": "Atta Ul Asad",          "href": "" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ali",          "href": "" },
+        { "name": "Muhammad Haseeb",       "href": "" },
+        { "name": "Dean F. Hougen",        "href": "" }
+      ],
+      "venue": "EMNLP'26 Workshop",
+      "status": "accepted",
+      "links": [
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2608.30996" }
       ]
     }
   },
