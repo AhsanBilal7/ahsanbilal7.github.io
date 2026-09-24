@@ -2,6 +2,42 @@
   {
     "selected": true,
     "details": {
+      "title": "Sampling the Future: Monte Carlo Future-Query Estimation for KV Cache Eviction",
+      "authors": [
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "W.H. Raza",             "href": "" },
+        { "name": "A.U. Asad",             "href": "" },
+        { "name": "Y.D. Kwon",             "href": "" },
+        { "name": "M. Valko",              "href": "" },
+        { "name": "Dean F. Hougen",        "href": "" }
+      ],
+      "venue": "ICLR'27",
+      "status": "submitted",
+      "links": []
+    }
+  },
+  {
+    "selected": true,
+    "details": {
+      "title": "Attend at the Right Resolution: Head-Adaptive Sparse Attention via Query–Key Interaction Structure",
+      "authors": [
+        { "name": "W.H. Raza",             "href": "" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Y. Shen",               "href": "" },
+        { "name": "R. Hu",                 "href": "" },
+        { "name": "X. Fu",                 "href": "" },
+        { "name": "Y. Wen",                "href": "" }
+      ],
+      "venue": "ICLR'27",
+      "status": "submitted",
+      "links": []
+    }
+  },
+  {
+    "selected": true,
+    "details": {
       "title": "Epistemic Uncertainty for Test-Time Discovery",
       "authors": [
         { "name": "Kainat Riaz",           "href": "" },
@@ -13,7 +49,7 @@
         { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
-      "venue": "NeurIPS'26",
+      "venue": "ICLR'27",
       "status": "submitted",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2605.11328" }
@@ -34,7 +70,7 @@
         { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
-      "venue": "NeurIPS'26",
+      "venue": "ICLR'27",
       "status": "submitted",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2605.18721" }
