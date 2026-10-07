@@ -2,20 +2,22 @@
   {
     "selected": true,
     "details": {
-      "title": "Sampling the Future: Monte Carlo Future-Query Estimation for KV Cache Eviction",
+      "title": "Monte Carlo Estimation for KV Cache Eviction",
       "authors": [
         { "name": "Ahsan Bilal",           "href": "", "strong": true },
         { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
-        { "name": "W.H. Raza",             "href": "" },
+        { "name": "Wajih Hassan Raza",     "href": "" },
         { "name": "Atta Ul Asad",          "href": "" },
-        { "name": "Y.D. Kwon",             "href": "" },
-        { "name": "M. Valko",              "href": "" },
+        { "name": "Young D. Kwon",         "href": "" },
+        { "name": "Michal Valko",          "href": "" },
         { "name": "Dean F. Hougen",        "href": "" }
       ],
       "venue": "ICLR'27",
       "status": "submitted",
-      "links": []
+      "links": [
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2610.07643" }
+      ]
     }
   },
   {
