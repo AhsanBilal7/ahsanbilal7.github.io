@@ -2,7 +2,7 @@
 // Renders the Research Papers list from publications.json and drives the
 // featured / all / accepted / submitted filter tabs above the section.
 // Each entry is intentionally minimal: title, authors (* = equal
-// contribution), venue + status, and a single PDF link.
+// contribution), venue + status, a single PDF link, and a Code link if any.
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('pub-list');
@@ -29,7 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function pickPdfLink(links) {
     if (!links || !links.length) return null;
     const pdf = links.find(l => /pdf|arxiv/i.test(l.label || '') || /arxiv\.org|\.pdf($|\?)/i.test(l.href || ''));
-    return pdf || links[0];
+    return pdf || links.find(l => !isCodeLink(l)) || null;
+  }
+
+  function isCodeLink(l) {
+    return /^code$/i.test(l.label || '');
   }
 
   function buildEntry(pub) {
@@ -71,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       entry.appendChild(el('p', { class: 'author_footnote pub-footnote' }, '* Equal contribution'));
     }
 
-    // Venue + status + PDF link.
+    // Venue + status + PDF / Code links.
     const meta = el('p', { class: 'pub-meta' });
     const venueContent = d.venue_href
       ? el('a', { href: d.venue_href, target: '_blank', class: 'venue' }, d.venue || '')
@@ -84,6 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const pdf = pickPdfLink(d.links);
     if (pdf) {
       meta.appendChild(el('a', { href: pdf.href, target: '_blank', class: 'pub-pdf' }, /pdf|arxiv/i.test(pdf.label || '') ? 'PDF' : pdf.label));
+    }
+    const code = (d.links || []).find(isCodeLink);
+    if (code) {
+      meta.appendChild(el('a', { href: code.href, target: '_blank', class: 'pub-pdf' }, 'Code'));
     }
     entry.appendChild(meta);
 

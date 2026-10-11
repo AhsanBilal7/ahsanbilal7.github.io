@@ -76,7 +76,8 @@
       "status": "submitted",
       "badges": ["MatrAIx Open-Source Contribution"],
       "links": [
-        { "label": "PDF", "href": "https://arxiv.org/pdf/2610.04379v1" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2610.04379v1" },
+        { "label": "Code", "href": "https://github.com/MatrAIx-ai/AgentPersonaBench" }
       ]
     }
   },
@@ -213,7 +214,8 @@
       "status": "accepted",
       "announced": "May 2026",
       "links": [
-        { "label": "PDF", "href": "https://arxiv.org/pdf/2602.01070" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2602.01070" },
+        { "label": "Code", "href": "https://github.com/AhsanBilal7/adaptive-test-time-compute" }
       ]
     }
   },
@@ -294,7 +296,8 @@
       "status": "accepted",
       "announced": "June 2026",
       "links": [
-        { "label": "PDF", "href": "https://arxiv.org/pdf/2508.11668" }
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2508.11668" },
+        { "label": "Code", "href": "https://github.com/muhd-umer/n-grf" }
       ]
     }
   },
@@ -376,6 +379,7 @@
       "announced": "June 2025",
       "links": [
         { "label": "PDF",     "href": "https://arxiv.org/pdf/2501.17879" },
+        { "label": "Code", "href": "https://github.com/ahmd-mohsin/cl-wcp" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/wireless_continual" }
       ]
     }
@@ -415,6 +419,7 @@
       "announced": "June 2025",
       "links": [
         { "label": "PDF",     "href": "https://arxiv.org/pdf/2503.07670" },
+        { "label": "Code", "href": "https://github.com/AhsanBilal7/Retrieval-augmented-generation-with-multi-modal-llm-framework-for-wireless-environments" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/RAG_wireless.html" }
       ]
     }
@@ -436,6 +441,7 @@
       "announced": "Jan 2025",
       "links": [
         { "label": "PDF",     "href": "https://arxiv.org/pdf/2501.09212" },
+        { "label": "Code", "href": "https://github.com/ahmd-mohsin/Hierarchical-Deep-Reinforcement-Learning-for-Adaptive-Resource-Management-in-Integrated-Terrestrial-" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/hierarchical_wireless.html" }
       ]
     }
