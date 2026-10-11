@@ -30,7 +30,8 @@ window.setupShowMore = function (ul, visibleCount) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'show-more-btn';
-  btn.textContent = `Show More (${items.length - visibleCount})`;
+  btn.innerHTML = `<span>Show more (${items.length - visibleCount})</span>` +
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
   btn.addEventListener('click', () => {
     items.forEach(li => li.classList.remove('news-item--hidden'));
     wrap.remove();

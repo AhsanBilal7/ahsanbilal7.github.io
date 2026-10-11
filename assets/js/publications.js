@@ -36,6 +36,20 @@ document.addEventListener('DOMContentLoaded', () => {
     return /^code$/i.test(l.label || '');
   }
 
+  // Inline SVG icons (stroke = currentColor, so they follow the link color
+  // in both themes without an icon font).
+  const ICONS = {
+    pdf: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg>',
+    code: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>'
+  };
+
+  function linkButton(href, label, icon) {
+    const a = el('a', { href, target: '_blank', rel: 'noopener', class: 'pub-link' });
+    a.insertAdjacentHTML('beforeend', ICONS[icon]);
+    a.appendChild(el('span', {}, label));
+    return a;
+  }
+
   function buildEntry(pub) {
     const d = pub.details || {};
     const status = d.status === 'accepted' ? 'accepted' : 'submitted';
@@ -87,11 +101,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     const pdf = pickPdfLink(d.links);
     if (pdf) {
-      meta.appendChild(el('a', { href: pdf.href, target: '_blank', class: 'pub-pdf' }, /pdf|arxiv/i.test(pdf.label || '') ? 'PDF' : pdf.label));
+      meta.appendChild(linkButton(pdf.href, /pdf|arxiv/i.test(pdf.label || '') ? 'PDF' : pdf.label, 'pdf'));
     }
     const code = (d.links || []).find(isCodeLink);
     if (code) {
-      meta.appendChild(el('a', { href: code.href, target: '_blank', class: 'pub-pdf' }, 'Code'));
+      meta.appendChild(linkButton(code.href, 'Code', 'code'));
     }
     entry.appendChild(meta);
 

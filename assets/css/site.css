@@ -15,7 +15,12 @@
     --submitted: #B8860B;
     --extra: #B83A4B;
     --hairline: rgba(0, 0, 0, 0.07);
+    --border: rgba(0, 0, 0, 0.14);
     --tint: #fafafa;
+    --chip-bg: #f2f1ed;
+    --bg: #fff;
+    --venue-ink: #1C6E92;
+    --venue-bg: rgba(67, 179, 224, 0.12);
 }
 
 /* ---------- Nav ---------- */
@@ -144,6 +149,102 @@ body {
     line-height: 1;
 }
 
+/* The vendor template styles every <button> as a solid blue pill with
+   forced white text (!important) and a text shadow, which made the filter
+   tabs and "Show more" washed out. Reset that for our own buttons. */
+.pub-filter-bar .pub-filter,
+.show-more-btn,
+.theme-toggle-btn {
+    color: var(--body) !important;
+    text-shadow: none;
+    box-shadow: none;
+    max-width: none;
+    overflow: visible;
+}
+
+.pub-filter-bar .pub-filter:hover,
+.pub-filter-bar .pub-filter:active,
+.show-more-btn:active,
+.theme-toggle-btn:active {
+    background-color: transparent;
+    top: 0;
+}
+
+.pub-filter-bar .pub-filter:hover,
+.show-more-btn,
+.show-more-btn:hover,
+.theme-toggle-btn:hover {
+    color: var(--ink) !important;
+}
+
+.pub-filter-bar .pub-filter.is-active,
+.pub-filter-bar .pub-filter.is-active:hover {
+    background-color: var(--ink);
+    color: var(--bg, #fff) !important;
+}
+
+/* ---------- Hero tagline (research keywords under the name) ----------
+   Scoped under #top so vendor #top rules (e.g. "#top p") never win. */
+
+#top .hero-tagline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55em;
+    list-style: none;
+    margin: -0.25em 0 1.75em;
+    padding: 0;
+}
+
+#top .hero-tagline li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    padding: 0.45em 0.95em 0.45em 0.8em;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--bg);
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 0.85em;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+#top .hero-tagline li:hover {
+    border-color: var(--accent);
+    background: var(--venue-bg);
+}
+
+#top .hero-tagline svg {
+    width: 1.1em;
+    height: 1.1em;
+    flex: 0 0 auto;
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+@media screen and (max-width: 980px) {
+    #top .hero-tagline {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #top .hero-tagline {
+        gap: 0.45em;
+    }
+
+    #top .hero-tagline li {
+        font-size: 0.8em;
+    }
+}
+
 /* ---------- Section headers ---------- */
 
 .section-header {
@@ -239,22 +340,37 @@ body {
 }
 
 .show-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
     width: auto;
-    border: 1px solid var(--hairline);
+    border: 1px solid var(--border);
     background: transparent;
-    color: var(--body);
+    color: var(--ink);
     font-family: "Source Sans 3", sans-serif;
     font-weight: 600;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    line-height: 1.2;
     letter-spacing: 0.01em;
-    padding: 0.55em 1.1em;
+    padding: 0.6em 1.3em;
     border-radius: 999px;
     cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.show-more-btn svg {
+    width: 1em;
+    height: 1em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .show-more-btn:hover {
-    background: #f2f1ed;
-    color: var(--ink);
+    background: var(--chip-bg);
+    border-color: var(--ink);
 }
 
 .news-item--hidden {
@@ -302,35 +418,50 @@ body {
     white-space: nowrap;
 }
 
-.interest-meta .venue {
-    font-family: "Source Serif 4", serif;
-    font-weight: normal;
-    color: var(--ink);
-    font-size: 0.9em;
+.interest-meta .venue,
+.pub-meta .venue {
+    display: inline-block;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 0.82em;
+    letter-spacing: 0.02em;
+    line-height: 1;
+    color: var(--venue-ink);
+    background: var(--venue-bg);
+    padding: 0.4em 0.7em;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+a.venue:hover {
+    color: var(--venue-ink) !important;
+    text-decoration: underline;
 }
 
 /* ---------- Research Papers ---------- */
 
 .pub-filter-bar {
     display: inline-flex;
+    flex-wrap: wrap;
     gap: 0.25em;
-    background: #f2f1ed;
+    background: var(--chip-bg);
     padding: 0.3em;
     border-radius: 999px;
     flex: 0 0 auto;
 }
 
 .pub-filter-bar .pub-filter {
+    width: auto;
     border: 0;
     background: transparent;
     cursor: pointer;
     font-family: "Source Sans 3", sans-serif;
-    font-weight: 700;
-    font-size: 0.68em;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #8b8a85;
-    padding: 0.6em 1em;
+    font-weight: 600;
+    font-size: 0.85em;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: var(--body);
+    padding: 0.5em 1.1em;
     border-radius: 999px;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -340,9 +471,7 @@ body {
 }
 
 .pub-filter-bar .pub-filter.is-active {
-    background: #fff;
-    color: var(--ink);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    background: var(--ink);
 }
 
 .pub-list {
@@ -401,17 +530,34 @@ body {
     margin-bottom: 0;
 }
 
-.pub-meta .venue {
-    font-family: "Source Serif 4 Bold", serif;
-    font-weight: bold;
+.pub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 1;
     color: var(--ink);
-    font-size: 0.95em;
+    border: 1px solid var(--border);
+    padding: 0.35em 0.75em;
+    border-radius: 999px;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 }
 
-.pub-pdf {
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 700;
-    font-size: 0.82em;
+.pub-link svg {
+    width: 1.1em;
+    height: 1.1em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.pub-link:hover {
+    color: var(--accent) !important;
+    border-color: var(--accent);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -426,10 +572,10 @@ body {
     display: inline-block;
     font-family: "Source Sans 3", sans-serif;
     font-weight: 700;
-    font-size: 0.68em;
-    letter-spacing: 0.03em;
+    font-size: 0.72em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    padding: 0.3em 0.7em;
+    padding: 0.4em 0.75em;
     border-radius: 999px;
     line-height: 1;
     white-space: nowrap;
@@ -479,7 +625,12 @@ body {
     --submitted: #E0A83B;
     --extra: #E2727E;
     --hairline: rgba(255, 255, 255, 0.09);
+    --border: rgba(255, 255, 255, 0.18);
     --tint: #1a1a1a;
+    --chip-bg: #1f1f1f;
+    --bg: #121212;
+    --venue-ink: #8FD6F4;
+    --venue-bg: rgba(91, 195, 238, 0.14);
 }
 
 .dark-mode body {
@@ -536,27 +687,8 @@ body {
     text-shadow: none;
 }
 
-.dark-mode .show-more-btn:hover {
-    background: #212121;
-    color: var(--ink);
-}
-
 .dark-mode .wrapper.style4 {
     background-color: #0c0c0c;
-}
-
-.dark-mode .pub-filter-bar {
-    background: #1c1c1c;
-}
-
-.dark-mode .pub-filter-bar .pub-filter {
-    color: #8b8a85;
-}
-
-.dark-mode .pub-filter-bar .pub-filter.is-active {
-    background: #2a2a2a;
-    color: var(--ink);
-    box-shadow: none;
 }
 
 /* ---------- Responsive ---------- */
@@ -604,5 +736,12 @@ body {
     .interest-list li,
     .pub-meta {
         gap: 0.4em 0.8em;
+    }
+
+    .pub-filter-bar .pub-filter,
+    .show-more-btn {
+        width: auto;
+        font-size: 0.85em;
+        padding: 0.55em 1em;
     }
 }
