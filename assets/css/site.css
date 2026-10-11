@@ -596,6 +596,296 @@ a.venue:hover {
     background: rgba(184, 58, 75, 0.1);
 }
 
+/* ---------- Gallery ---------- */
+
+.gallery {
+    max-width: 960px;
+    margin: 0 auto 2.5em;
+    text-align: left;
+}
+
+.gallery-stage {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #111;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 12px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Blurred copy of the current photo fills the frame, so portrait shots
+   don't leave hard empty bars on either side. */
+.gallery-backdrop {
+    position: absolute;
+    inset: -40px;
+    background-size: cover;
+    background-position: center;
+    filter: blur(28px) brightness(0.5) saturate(1.1);
+    transition: opacity 0.5s ease;
+}
+
+.gallery-photo {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.5s ease;
+}
+
+.gallery-stage.is-fading .gallery-photo,
+.gallery-stage.is-fading .gallery-backdrop {
+    opacity: 0;
+}
+
+/* Slow push-in on the featured photo while autoplay runs. */
+#gallery.is-playing .gallery-photo {
+    animation: gallery-zoom var(--gallery-interval, 5s) ease-out forwards;
+}
+
+@keyframes gallery-zoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.035); }
+}
+
+/* Caption + controls under the photo. */
+.gallery-bar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5em;
+    padding: 1.15em 0.25em 1.1em;
+}
+
+.gallery-info {
+    min-width: 0;
+}
+
+.gallery-meta {
+    display: block;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 0.7em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.35em;
+}
+
+#gallery .gallery-title {
+    font-size: 1.2em;
+    line-height: 1.35;
+    margin: 0 0 0.2em;
+}
+
+#gallery .gallery-caption {
+    font-size: 0.92em;
+    line-height: 1.6;
+    color: var(--body);
+    margin: 0;
+}
+
+.gallery-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6em;
+    flex: 0 0 auto;
+    padding-top: 0.2em;
+}
+
+.gallery-counter {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    min-width: 3.6em;
+    text-align: center;
+}
+
+/* Template styles every <button>; reset for the gallery controls. */
+.gallery .gallery-nav,
+.gallery .gallery-thumb {
+    width: auto;
+    max-width: none;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 1em;
+    top: auto;
+}
+
+.gallery .gallery-nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.3em;
+    height: 2.3em;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--ink) !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.gallery .gallery-nav:hover,
+.gallery .gallery-nav:active {
+    background: var(--chip-bg);
+    border-color: var(--ink);
+    top: auto;
+}
+
+.gallery-nav svg {
+    width: 1.05em;
+    height: 1.05em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.gallery-thumbs {
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 0.7em;
+    padding: 4px;
+    margin: 0 -4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.gallery-thumbs::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery .gallery-thumb {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--chip-bg);
+    cursor: pointer;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    transition: outline-color 0.25s ease;
+}
+
+.gallery .gallery-thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(1.5px) grayscale(0.4);
+    opacity: 0.45;
+    transform: scale(1.06);
+    transition: filter 0.35s ease, opacity 0.35s ease, transform 0.35s ease;
+}
+
+.gallery .gallery-thumb:hover,
+.gallery .gallery-thumb:active {
+    background: var(--chip-bg);
+    top: auto;
+}
+
+.gallery .gallery-thumb:hover img {
+    filter: none;
+    opacity: 0.85;
+    transform: scale(1.02);
+}
+
+.gallery .gallery-thumb.is-active {
+    outline-color: var(--accent);
+}
+
+.gallery .gallery-thumb.is-active img {
+    filter: none;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.gallery .gallery-thumb:focus-visible {
+    outline-color: var(--ink);
+}
+
+/* Progress bar on the active thumbnail while autoplay is running. */
+.gallery-progress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: var(--accent);
+}
+
+#gallery.is-playing .gallery-thumb.is-active .gallery-progress {
+    animation: gallery-progress var(--gallery-interval, 5s) linear forwards;
+}
+
+@keyframes gallery-progress {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.dark-mode .gallery-stage {
+    box-shadow: 0 0 0 1px var(--hairline);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-photo,
+    .gallery-backdrop,
+    .gallery .gallery-thumb,
+    .gallery .gallery-thumb img {
+        transition: none;
+    }
+
+    #gallery.is-playing .gallery-photo {
+        animation: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .gallery-stage {
+        aspect-ratio: 4 / 3;
+        border-radius: 12px;
+    }
+
+    .gallery-bar {
+        flex-direction: column-reverse;
+        gap: 0.6em;
+        padding: 0.85em 0 0.9em;
+    }
+
+    .gallery-controls {
+        align-self: stretch;
+        justify-content: space-between;
+        padding-top: 0;
+    }
+
+    #gallery .gallery-title {
+        font-size: 1.05em;
+    }
+
+    #gallery .gallery-caption {
+        font-size: 0.85em;
+    }
+
+    .gallery-thumbs {
+        grid-auto-columns: 30%;
+        gap: 0.5em;
+    }
+
+    .gallery .gallery-thumb {
+        border-radius: 8px;
+    }
+}
+
 /* ---------- Footer ---------- */
 
 .wrapper.style4 {

@@ -95,6 +95,7 @@
     <script src="assets/js/interests.js"></script>
     <script src="assets/js/review.js"></script>
     <script src="assets/js/awards.js"></script>
+    <script src="assets/js/gallery.js"></script>
     <script src="assets/js/theme-toggle.js"></script>
 
 <nav id="nav">
@@ -108,6 +109,7 @@
                 <li><a href="#interests">Research Interests</a></li>
                 <li><a href="#reviewing">Reviewing</a></li>
                 <li><a href="#awards">Awards</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="assets/pdfs/cv.pdf" target="_blank" class="nav-cv">CV</a></li>
             </ul>
             <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-pressed="false">
@@ -266,6 +268,41 @@
       </header>
       <!-- this <ul> will be populated dynamically by assets/js/awards.js -->
       <ul class="entry-list" id="awards-list"></ul>
+    </div>
+</article>
+
+<article id="gallery" class="wrapper style3">
+    <div class="container">
+      <header class="section-header">
+        <div>
+          <span class="kicker">Moments</span>
+          <h2>Gallery</h2>
+        </div>
+      </header>
+      <!-- photos come from assets/data/gallery.json via assets/js/gallery.js -->
+      <div class="gallery" role="region" aria-roledescription="carousel" aria-label="Photo gallery">
+        <figure class="gallery-stage">
+          <div class="gallery-backdrop" aria-hidden="true"></div>
+          <img class="gallery-photo" src="" alt="">
+        </figure>
+        <div class="gallery-bar">
+          <div class="gallery-info" aria-live="polite">
+            <span class="gallery-meta"></span>
+            <h3 class="gallery-title"></h3>
+            <p class="gallery-caption"></p>
+          </div>
+          <div class="gallery-controls">
+            <button type="button" class="gallery-nav gallery-prev" aria-label="Previous photo">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+            </button>
+            <span class="gallery-counter"></span>
+            <button type="button" class="gallery-nav gallery-next" aria-label="Next photo">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="gallery-thumbs"></div>
+      </div>
     </div>
 </article>
 

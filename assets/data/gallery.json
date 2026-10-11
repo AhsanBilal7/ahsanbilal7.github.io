@@ -1,0 +1,66 @@
+[
+  {
+    "src": "assets/images/gallery/icc25-montreal-best-paper.jpg",
+    "thumb": "assets/images/gallery/icc25-montreal-best-paper-thumb.jpg",
+    "title": "Best Paper Award at ICC 2025 Workshop",
+    "caption": "With Dr. John M. Cioffi and Muhammad Ahmed Mohsin.",
+    "place": "Montréal, Canada",
+    "date": "Jun 2025"
+  },
+  {
+    "src": "assets/images/gallery/icml26-seoul-poster.jpg",
+    "thumb": "assets/images/gallery/icml26-seoul-poster-thumb.jpg",
+    "title": "Poster at ICML 2026",
+    "caption": "Presenting “What If We Allocate Test-Time Compute Adaptively?”",
+    "place": "Seoul, South Korea",
+    "date": "Jul 2026"
+  },
+  {
+    "src": "assets/images/gallery/icml26-seoul-social.jpg",
+    "thumb": "assets/images/gallery/icml26-seoul-social-thumb.jpg",
+    "title": "ICML 2026 Social",
+    "caption": "An evening with Michal Valko and fellow researchers.",
+    "place": "Seoul, South Korea",
+    "date": "Jul 2026"
+  },
+  {
+    "src": "assets/images/gallery/icassp26-barcelona-talk.jpg",
+    "thumb": "assets/images/gallery/icassp26-barcelona-talk-thumb.jpg",
+    "title": "Presenting at ICASSP 2026",
+    "caption": "Our paper on channel prediction under network distribution shift.",
+    "place": "Barcelona, Spain",
+    "date": "May 2026"
+  },
+  {
+    "src": "assets/images/gallery/icassp26-barcelona-booth.jpg",
+    "thumb": "assets/images/gallery/icassp26-barcelona-booth-thumb.jpg",
+    "title": "ICASSP 2026",
+    "caption": "With Muhammad Ahmed Mohsin at the ICASSP booth.",
+    "place": "Barcelona, Spain",
+    "date": "May 2026"
+  },
+  {
+    "src": "assets/images/gallery/bay-area-nust-gathering.jpg",
+    "thumb": "assets/images/gallery/bay-area-nust-gathering-thumb.jpg",
+    "title": "NUST Classmates in the Bay Area",
+    "caption": "Hosted by Nadeem Hussain, with fellow NUST alumni now pursuing Ph.D.s and careers across U.S. research and industry.",
+    "place": "San Francisco Bay Area, USA",
+    "date": "Sep 2026"
+  },
+  {
+    "src": "assets/images/gallery/nust-open-house-best-project.jpg",
+    "thumb": "assets/images/gallery/nust-open-house-best-project-thumb.jpg",
+    "title": "Best Adjudged Industry Project, NUST Open House",
+    "caption": "Receiving the award with my final-year project teammates for our gait recognition system.",
+    "place": "NUST, Islamabad, Pakistan",
+    "date": "2024"
+  },
+  {
+    "src": "assets/images/gallery/nust-fyp-booth.jpg",
+    "thumb": "assets/images/gallery/nust-fyp-booth-thumb.jpg",
+    "title": "Final-Year Project Showcase",
+    "caption": "Walking visitors through our gait recognition system at the NUST Open House booth.",
+    "place": "NUST, Islamabad, Pakistan",
+    "date": "2024"
+  }
+]
