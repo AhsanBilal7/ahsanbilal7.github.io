@@ -1040,3 +1040,40 @@ a.venue:hover {
         padding: 0.55em 1em;
     }
 }
+
+/* ---------- Hero bio + photo alignment ---------- */
+
+#top .hero-bio p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0 0 0.9em;
+}
+
+#top .hero-bio p:last-child {
+    margin-bottom: 0;
+}
+
+#top .hero-bio p a {
+    color: var(--accent);
+}
+
+#top .hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top .hero-photo .image {
+    margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+    #top .hero-photo {
+        order: -1;
+        margin-bottom: 1.5em;
+    }
+
+    #top .hero-photo .image {
+        margin: 0 auto;
+    }
+}
