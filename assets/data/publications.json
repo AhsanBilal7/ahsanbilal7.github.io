@@ -21,6 +21,45 @@
     }
   },
   {
+    "selected": true,
+    "details": {
+      "title": "Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning",
+      "authors": [
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Lena Trigg",            "href": "" },
+        { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
+        { "name": "Muhammad Ali",          "href": "" },
+        { "name": "Dean F. Hougen",        "href": "" }
+      ],
+      "venue": "EMNLP'26",
+      "status": "submitted",
+      "links": [
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2608.05643" }
+      ]
+    }
+  },
+  {
+    "selected": false,
+    "details": {
+      "title": "Adaptive Replay Refinement: Allocating Test-Time Compute Between Revision and Resampling",
+      "authors": [
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ayesha Mohsin",         "href": "" },
+        { "name": "Sarmad Bilal",          "href": "" },
+        { "name": "Dean F. Hougen",        "href": "" }
+      ],
+      "venue": "arXiv'26",
+      "status": "submitted",
+      "links": [
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2610.28294" }
+      ]
+    }
+  },
+  {
     "selected": false,
     "details": {
       "title": "AgentPersonaBench: Benchmarking Persona-Driven User Simulation",
@@ -145,12 +184,12 @@
     "details": {
       "title": "Pressure, What Pressure? Sycophancy Disentanglement in Language Models via Reward Decomposition",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
-        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true, "equal": true },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" }
       ],
-      "venue": "NeurIPS'26",
+      "venue": "COLM'26",
       "status": "submitted",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2604.05279" }
@@ -162,8 +201,8 @@
     "details": {
       "title": "S3: Stratified Scaling Search for Test-Time in Diffusion Language Models",
       "authors": [
-        { "name": "Ahsan Bilal",              "href": "", "strong": true },
-        { "name": "Muhammad Ahmed Mohsin",    "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",              "href": "", "strong": true, "equal": true },
+        { "name": "Muhammad Ahmed Mohsin",    "href": "https://ahmd-mohsin.github.io/", "equal": true },
         { "name": "Muhammad Umer",            "href": "https://muhd-umer.github.io/" },
         { "name": "Asad Aali",                "href": "https://asadaali.com/" },
         { "name": "Muhammad Usman Khanzada",  "href": "" },
@@ -172,7 +211,7 @@
         { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/" },
         { "name": "Dean F. Hougen",           "href": "" }
       ],
-      "venue": "COLM'26",
+      "venue": "ICLR'27",
       "status": "submitted",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2604.06260" }
@@ -184,8 +223,8 @@
     "details": {
       "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
       "authors": [
-        { "name": "Atta Ul Asad",          "href": "" },
-        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Atta Ul Asad",          "href": "", "equal": true },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true, "equal": true },
         { "name": "Muhammad Ali",          "href": "" },
         { "name": "Muhammad Haseeb",       "href": "" },
         { "name": "Dean F. Hougen",        "href": "" }
@@ -202,12 +241,12 @@
     "details": {
       "title": "What If We Allocate Test-Time Compute Adaptively?",
       "authors": [
-        { "name": "Ahsan Bilal",           "href": "", "strong": true },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true, "equal": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
         { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en" },
-        { "name": "Ahmad Mohsin",          "href": "" },
+        { "name": "Ayesha Mohsin",         "href": "" },
         { "name": "Dean F. Hougen",        "href": "" }
       ],
       "venue": "ICML'26",
@@ -222,10 +261,26 @@
   {
     "selected": true,
     "details": {
+      "title": "Logic-Level Evaluation of Logical Table-to-Text Generation",
+      "authors": [
+        { "name": "Lena Trigg",            "href": "" },
+        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true }
+      ],
+      "venue": "CoNLL'26",
+      "status": "accepted",
+      "links": [
+        { "label": "PDF", "href": "https://aclanthology.org/2026.conll-main.41.pdf" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "details": {
       "title": "Continuous-Utility Direct Preference Optimization",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/", "equal": true },
         { "name": "Ahsan Bilal",           "href": "", "strong": true },
         { "name": "Z. He",                 "href": "" },
         { "name": "M.U. Rafique",          "href": "" },
@@ -234,7 +289,7 @@
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" },
         { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" }
       ],
-      "venue": "ICML'26",
+      "venue": "EMNLP'26",
       "status": "submitted",
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2602.00931" }
@@ -287,8 +342,8 @@
       "title": "Neural Gaussian Radio Fields for Channel Estimation",
       "authors": [
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/",   "equal": true },
-        { "name": "Ahsan Bilal",           "href": "", "strong": true,               "equal": true },
         { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true,               "equal": true },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "KDD'26",
@@ -327,10 +382,10 @@
     "details": {
       "title": "Conditional Prior-Based Non-Stationary Channel Estimation Using Accelerated Diffusion Models",
       "authors": [
-        { "name": "Ahsan Bilal",           "href": "", "strong": true },
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true, "equal": true },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
-        { "name": "A. Ali",                "href": "" },
+        { "name": "Asad Aali",             "href": "https://asadaali.com/" },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
         { "name": "Dean F. Hougen",        "href": "" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
@@ -366,6 +421,40 @@
   {
     "selected": true,
     "details": {
+      "title": "Canonical Optimization for MIMO MAC Design",
+      "authors": [
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
+      ],
+      "venue": "GLOBECOM'26",
+      "status": "accepted",
+      "links": []
+    }
+  },
+  {
+    "selected": false,
+    "details": {
+      "title": "6G Twin: Hybrid Gaussian Radio Fields for Channel Estimation and Non-Linear Precoder Design for Radio Access Networks",
+      "authors": [
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
+      ],
+      "venue": "arXiv'25",
+      "status": "submitted",
+      "links": [
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2509.18735" }
+      ]
+    }
+  },
+  {
+    "selected": true,
+    "details": {
       "title": "Continual Learning for Wireless Channel Prediction",
       "authors": [
         { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
@@ -378,7 +467,6 @@
       "status": "accepted",
       "announced": "June 2025",
       "links": [
-        { "label": "PDF",     "href": "https://arxiv.org/pdf/2501.17879" },
         { "label": "Code", "href": "https://github.com/ahmd-mohsin/cl-wcp" },
         { "label": "website", "href": "https://cioffi-group-stanford.github.io/Websites/wireless_continual" }
       ]
@@ -387,7 +475,7 @@
   {
     "selected": true,
     "details": {
-      "title": "Task Aware Distributed Source Coding for Correlated Audio Signals Using Perceptual Loss",
+      "title": "Task and Perception-aware Distributed Source Coding for Correlated Speech under Bandwidth-constrained Channels",
       "authors": [
         { "name": "Sagnik Bhattacharya",   "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
         { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
@@ -449,6 +537,22 @@
   {
     "selected": false,
     "details": {
+      "title": "LLMs for Explainable AI: A Comprehensive Survey",
+      "authors": [
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "David Ebert",           "href": "" },
+        { "name": "Beiyu Lin",             "href": "https://beiyulincs.github.io/" }
+      ],
+      "venue": "arXiv'25",
+      "status": "submitted",
+      "links": [
+        { "label": "PDF", "href": "https://arxiv.org/pdf/2504.00125" }
+      ]
+    }
+  },
+  {
+    "selected": false,
+    "details": {
       "title": "Abstract – LLM for Explainable AI",
       "authors": [
         { "name": "Ahsan Bilal", "href": "", "strong": true },
@@ -473,7 +577,7 @@
         { "name": "Muhammad Awais Khan Bangash",  "href": "" },
         { "name": "Muhammad Ali Jamshed",         "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" }
       ],
-      "venue": "IEEE TAI",
+      "venue": "EAAI",
       "status": "submitted",
       "links": [
         { "label": "PDF",     "href": "https://arxiv.org/pdf/2504.14520" },

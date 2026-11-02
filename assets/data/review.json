@@ -1,7 +1,7 @@
 [
   {
     "date": "Conferences",
-    "html": ["NeurIPS", "ICML", "KDD", "ICASSP", "PAKDD", "AAAI", "VTC"]
+    "html": ["ICLR", "NeurIPS", "ICML", "KDD", "ICASSP", "PAKDD", "AAAI", "VTC"]
   },
   {
     "date": "Journals",
@@ -12,7 +12,9 @@
       "Information Processing &amp; Management",
       "Aquaculture International",
       "International Journal of Information Management",
-      "IEEE Access"
+      "IEEE Access",
+      "ICES Journal of Marine Science",
+      "Information Systems Frontiers"
     ]
   }
 ]

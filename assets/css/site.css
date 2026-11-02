@@ -596,6 +596,11 @@ a.venue:hover {
     background: rgba(184, 58, 75, 0.1);
 }
 
+.status-badge--ongoing {
+    color: var(--accent);
+    background: rgba(67, 179, 224, 0.12);
+}
+
 /* ---------- Gallery ---------- */
 
 .gallery {
