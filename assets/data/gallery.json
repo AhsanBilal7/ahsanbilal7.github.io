@@ -16,6 +16,22 @@
     "date": "Jul 2026"
   },
   {
+    "src": "assets/images/gallery/icml26-seoul-marius-kloft.jpg",
+    "thumb": "assets/images/gallery/icml26-seoul-marius-kloft-thumb.jpg",
+    "title": "With Dr. Marius Kloft at ICML 2026",
+    "caption": "Discussing our poster “What If We Allocate Test-Time Compute Adaptively?”",
+    "place": "Seoul, South Korea",
+    "date": "Jul 2026"
+  },
+  {
+    "src": "assets/images/gallery/icml26-seoul-young-kwon.jpg",
+    "thumb": "assets/images/gallery/icml26-seoul-young-kwon-thumb.jpg",
+    "title": "With Dr. Young D. Kwon at ICML 2026",
+    "caption": "At our poster session on adaptive test-time compute.",
+    "place": "Seoul, South Korea",
+    "date": "Jul 2026"
+  },
+  {
     "src": "assets/images/gallery/icml26-seoul-social.jpg",
     "thumb": "assets/images/gallery/icml26-seoul-social-thumb.jpg",
     "title": "ICML 2026 Social",
