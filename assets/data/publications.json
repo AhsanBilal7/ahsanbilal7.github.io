@@ -277,28 +277,6 @@
   {
     "selected": true,
     "details": {
-      "title": "Continuous-Utility Direct Preference Optimization",
-      "authors": [
-        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/", "equal": true },
-        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/", "equal": true },
-        { "name": "Ahsan Bilal",           "href": "", "strong": true },
-        { "name": "Z. He",                 "href": "" },
-        { "name": "M.U. Rafique",          "href": "" },
-        { "name": "Asad Aali",             "href": "https://asadaali.com/" },
-        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
-        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" },
-        { "name": "Emily Fox",             "href": "https://emilybfox.su.domains/" }
-      ],
-      "venue": "EMNLP'26",
-      "status": "submitted",
-      "links": [
-        { "label": "PDF", "href": "https://arxiv.org/pdf/2602.00931" }
-      ]
-    }
-  },
-  {
-    "selected": true,
-    "details": {
       "title": "ITDPDM: Information-Theoretic Discrete Poisson Diffusion Model",
       "authors": [
         { "name": "Sagnik Bhattacharya", "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
@@ -321,12 +299,24 @@
     "details": {
       "title": "On the Fundamental Limits of LLMs at Scale",
       "authors": [
-        { "name": "Muhammad Ahmed Mohsin",              "href": "https://ahmd-mohsin.github.io/" },
-        { "name": "Ahsan Bilal",                        "href": "", "strong": true },
-        { "name": "Muhammad Umer",                      "href": "https://muhd-umer.github.io/" },
-        { "name": "Asad Aali",                          "href": "https://asadaali.com/" },
-        { "name": "W. Zhao",                            "href": "" },
-        { "name": "Researchers from DeepMind and Meta", "href": "" }
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer", "href": "https://muhd-umer.github.io/" },
+        { "name": "Ahsan Bilal", "href": "", "strong": true },
+        { "name": "Zeeshan Memon", "href": "" },
+        { "name": "Muhammad Ibtsaam Qadir", "href": "" },
+        { "name": "Sagnik Bhattacharya", "href": "https://scholar.google.com/citations?user=xNb5T5IAAAAJ&hl=en" },
+        { "name": "Hassan Rizwan", "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en" },
+        { "name": "Abhiram R. Gorle", "href": "" },
+        { "name": "Maahe Zehra Kazmi", "href": "" },
+        { "name": "Ayesha Mohsin", "href": "" },
+        { "name": "Ali Subhan", "href": "https://alisubhan5341.github.io/" },
+        { "name": "Muhammad Usman Rafique", "href": "" },
+        { "name": "Zihao He", "href": "" },
+        { "name": "Pulkit Mehta", "href": "" },
+        { "name": "Jinda Han", "href": "" },
+        { "name": "Muhammad Ali Jamshed", "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "Dean F. Hougen", "href": "" },
+        { "name": "John M. Cioffi", "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "TMLR'26",
       "status": "accepted",
@@ -334,6 +324,24 @@
       "links": [
         { "label": "PDF", "href": "https://arxiv.org/pdf/2511.12869" }
       ]
+    }
+  },
+  {
+    "selected": true,
+    "details": {
+      "title": "Agentic Continual Adaptation: Enabling Lifelong Learning in Wireless Channel Estimation",
+      "authors": [
+        { "name": "Ahsan Bilal",           "href": "", "strong": true },
+        { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
+        { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
+        { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
+        { "name": "Ayesha Mohsin",         "href": "" },
+        { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" },
+        { "name": "Dean F. Hougen",        "href": "" }
+      ],
+      "venue": "IEEE Network'26",
+      "status": "accepted",
+      "links": []
     }
   },
   {
