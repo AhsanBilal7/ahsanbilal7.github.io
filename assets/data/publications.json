@@ -8,10 +8,10 @@
         { "name": "Muhammad Ahmed Mohsin", "href": "https://ahmd-mohsin.github.io/" },
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "Wajih Hassan Raza",     "href": "" },
-        { "name": "Atta Ul Asad",          "href": "" },
-        { "name": "Young D. Kwon",         "href": "" },
-        { "name": "Michal Valko",          "href": "" },
-        { "name": "Dean F. Hougen",        "href": "" }
+        { "name": "Atta Ul Asad",          "href": "https://attaulasad.github.io/" },
+        { "name": "Young D. Kwon",         "href": "https://theyoungkwon.github.io/" },
+        { "name": "Michal Valko",          "href": "https://misovalko.github.io/" },
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "ICLR'27",
       "status": "submitted",
@@ -31,7 +31,7 @@
         { "name": "Lena Trigg",            "href": "" },
         { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
         { "name": "Muhammad Ali",          "href": "" },
-        { "name": "Dean F. Hougen",        "href": "" }
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "EMNLP'26",
       "status": "submitted",
@@ -50,7 +50,7 @@
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "Ayesha Mohsin",         "href": "" },
         { "name": "Sarmad Bilal",          "href": "" },
-        { "name": "Dean F. Hougen",        "href": "" }
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "arXiv'26",
       "status": "submitted",
@@ -209,7 +209,7 @@
         { "name": "Muhammad Usman Rafique",   "href": "" },
         { "name": "Zihao He",                 "href": "" },
         { "name": "Emily Fox",                "href": "https://emilybfox.su.domains/" },
-        { "name": "Dean F. Hougen",           "href": "" }
+        { "name": "Dean F. Hougen",           "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "ICLR'27",
       "status": "submitted",
@@ -223,11 +223,11 @@
     "details": {
       "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
       "authors": [
-        { "name": "Atta Ul Asad",          "href": "", "equal": true },
+        { "name": "Atta Ul Asad",          "href": "https://attaulasad.github.io/", "equal": true },
         { "name": "Ahsan Bilal",           "href": "", "strong": true, "equal": true },
         { "name": "Muhammad Ali",          "href": "" },
         { "name": "Muhammad Haseeb",       "href": "" },
-        { "name": "Dean F. Hougen",        "href": "" }
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "EMNLP'26 Workshop",
       "status": "accepted",
@@ -247,7 +247,7 @@
         { "name": "Ali Subhan",            "href": "https://alisubhan5341.github.io/" },
         { "name": "Hassan Rizwan",         "href": "https://scholar.google.com/citations?user=yUCtuKQAAAAJ&hl=en" },
         { "name": "Ayesha Mohsin",         "href": "" },
-        { "name": "Dean F. Hougen",        "href": "" }
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "ICML'26",
       "status": "accepted",
@@ -264,7 +264,7 @@
       "title": "Logic-Level Evaluation of Logical Table-to-Text Generation",
       "authors": [
         { "name": "Lena Trigg",            "href": "" },
-        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" },
         { "name": "Ahsan Bilal",           "href": "", "strong": true }
       ],
       "venue": "CoNLL'26",
@@ -315,7 +315,7 @@
         { "name": "Pulkit Mehta", "href": "" },
         { "name": "Jinda Han", "href": "" },
         { "name": "Muhammad Ali Jamshed", "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
-        { "name": "Dean F. Hougen", "href": "" },
+        { "name": "Dean F. Hougen", "href": "https://www.cs.ou.edu/~hougen/resume.html" },
         { "name": "John M. Cioffi", "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "TMLR'26",
@@ -337,7 +337,7 @@
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
         { "name": "Ayesha Mohsin",         "href": "" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" },
-        { "name": "Dean F. Hougen",        "href": "" }
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "IEEE Network'26",
       "status": "accepted",
@@ -374,7 +374,7 @@
         { "name": "Ahsan Bilal",           "href": "", "strong": true },
         { "name": "M.I. Qadir",            "href": "" },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
-        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICASSP'26",
@@ -395,7 +395,7 @@
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "Asad Aali",             "href": "https://asadaali.com/" },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
-        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "ICASSP'26",
@@ -450,7 +450,7 @@
         { "name": "Muhammad Umer",         "href": "https://muhd-umer.github.io/" },
         { "name": "Ahsan Bilal",           "href": "", "strong": true },
         { "name": "Muhammad Ali Jamshed",  "href": "https://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en" },
-        { "name": "Dean F. Hougen",        "href": "" },
+        { "name": "Dean F. Hougen",        "href": "https://www.cs.ou.edu/~hougen/resume.html" },
         { "name": "John M. Cioffi",        "href": "https://cioffi-group.stanford.edu/" }
       ],
       "venue": "arXiv'25",
@@ -601,7 +601,7 @@
         { "name": "Ahsan Bilal",     "href": "", "strong": true },
         { "name": "Ahmad Salman",    "href": "https://seecs.nust.edu.pk/faculty/ahmad-salman/" },
         { "name": "Khawar Khurshid", "href": "https://namal.edu.pk/faculty/profile/150/dr-khawar-khurshid" },
-        { "name": "Dean F. Hougen",  "href": "" }
+        { "name": "Dean F. Hougen",  "href": "https://www.cs.ou.edu/~hougen/resume.html" }
       ],
       "venue": "Springer ML",
       "status": "submitted",
