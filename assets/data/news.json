@@ -1,5 +1,9 @@
 [
   {
+    "date": "Nov 2026",
+    "html": "Received a research grant from <a href=\"https://openmined.org/research/grants/\" target=\"_blank\">OpenMined</a> for Ensembles &amp; Routing (Winter 2026)."
+  },
+  {
     "date": "Oct 2026",
     "html": "Our preprint <a href=\"https://arxiv.org/abs/2610.04379\" target=\"_blank\">&ldquo;AgentPersonaBench: Benchmarking Persona-Driven User Simulation&rdquo;</a> is out on arXiv, as part of my open-source contribution to <a href=\"https://github.com/MatrAIx-ai\" target=\"_blank\">MatrAIx</a>."
   },
